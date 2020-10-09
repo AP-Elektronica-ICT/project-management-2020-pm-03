@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float MovementSpeed = 5f;
 
-    // Update is called once per frame
+    // zorgt ervoor dat de hero niet door de grond gaat, kan bewegen,...
+    public Rigidbody2D RigidBody;
+
+    // Vector aanmaken waar we x-co en y-co in opslagen
+    Vector2 movement;
+
+    //public Animator Animation;
+
+
     void Update()
     {
-        
+        // Input + linken van animations met de bewegingen
+        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+
+        //Animation.SetFloat("Vertical", movement.y);
+        //Animation.SetFloat("Horizontal", movement.x);
+        //Animation.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
+    private void FixedUpdate()
+    {
+        RigidBody.MovePosition(RigidBody.position + movement * MovementSpeed * Time.fixedDeltaTime);
     }
 }
