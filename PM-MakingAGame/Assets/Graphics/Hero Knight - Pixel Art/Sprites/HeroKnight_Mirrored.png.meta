@@ -1,583 +1,277 @@
 fileFormatVersion: 2
-guid: ae297123f091bbf4e8f1835eb98fb293
+guid: afd0cc1480dee0b41aa592695a45c2be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: HeroKnight_0
+      213: -8072589057257759854
+    second: HeroKnight_Mirrored_0
   - first:
-      213: 21300002
-    second: HeroKnight_1
+      213: 2121962813552159547
+    second: HeroKnight_Mirrored_1
   - first:
-      213: 21300004
-    second: HeroKnight_2
+      213: -2212559136811302791
+    second: HeroKnight_Mirrored_2
   - first:
-      213: 21300006
-    second: HeroKnight_3
+      213: -4645083596662068284
+    second: HeroKnight_Mirrored_3
   - first:
-      213: 21300008
-    second: HeroKnight_4
+      213: 6224475451522964363
+    second: HeroKnight_Mirrored_4
   - first:
-      213: 21300010
-    second: HeroKnight_5
+      213: 678320409988915144
+    second: HeroKnight_Mirrored_5
   - first:
-      213: 21300012
-    second: HeroKnight_6
+      213: -3723610747554361172
+    second: HeroKnight_Mirrored_6
   - first:
-      213: 21300014
-    second: HeroKnight_7
+      213: 2489288125280333733
+    second: HeroKnight_Mirrored_7
   - first:
-      213: 21300016
-    second: HeroKnight_8
+      213: -4651851982224148402
+    second: HeroKnight_Mirrored_8
   - first:
-      213: 21300018
-    second: HeroKnight_9
+      213: 8068016784585398930
+    second: HeroKnight_Mirrored_9
   - first:
-      213: 21300020
-    second: HeroKnight_10
+      213: -6046657443227562258
+    second: HeroKnight_Mirrored_10
   - first:
-      213: 21300022
-    second: HeroKnight_11
+      213: -4144976262127519618
+    second: HeroKnight_Mirrored_11
   - first:
-      213: 21300024
-    second: HeroKnight_12
+      213: 5610581772073209564
+    second: HeroKnight_Mirrored_12
   - first:
-      213: 21300026
-    second: HeroKnight_13
+      213: -6233782122793804871
+    second: HeroKnight_Mirrored_13
   - first:
-      213: 21300028
-    second: HeroKnight_14
+      213: 6282445647256148666
+    second: HeroKnight_Mirrored_14
   - first:
-      213: 21300030
-    second: HeroKnight_15
+      213: 9207838369852324611
+    second: HeroKnight_Mirrored_15
   - first:
-      213: 21300032
-    second: HeroKnight_16
+      213: 6127333423150160998
+    second: HeroKnight_Mirrored_16
   - first:
-      213: 21300034
-    second: HeroKnight_17
+      213: -5159018505167787146
+    second: HeroKnight_Mirrored_17
   - first:
-      213: 21300036
-    second: HeroKnight_18
+      213: 4292526046698423267
+    second: HeroKnight_Mirrored_18
   - first:
-      213: 21300038
-    second: HeroKnight_19
+      213: 7599958281380407422
+    second: HeroKnight_Mirrored_19
   - first:
-      213: 21300040
-    second: HeroKnight_20
+      213: 8734382007220894905
+    second: HeroKnight_Mirrored_20
   - first:
-      213: 21300042
-    second: HeroKnight_21
+      213: -4456907367948667782
+    second: HeroKnight_Mirrored_21
   - first:
-      213: 21300044
-    second: HeroKnight_22
+      213: 4821290671723922557
+    second: HeroKnight_Mirrored_22
   - first:
-      213: 21300046
-    second: HeroKnight_23
+      213: -4407936149559720152
+    second: HeroKnight_Mirrored_23
   - first:
-      213: 21300048
-    second: HeroKnight_24
+      213: -941181001789758590
+    second: HeroKnight_Mirrored_24
   - first:
-      213: 21300050
-    second: HeroKnight_25
+      213: 5175603840092377011
+    second: HeroKnight_Mirrored_25
   - first:
-      213: 21300052
-    second: HeroKnight_26
+      213: 2926137642747871216
+    second: HeroKnight_Mirrored_26
   - first:
-      213: 21300054
-    second: HeroKnight_27
+      213: 3740247605059309943
+    second: HeroKnight_Mirrored_27
   - first:
-      213: 21300056
-    second: HeroKnight_28
+      213: -1529488089902891740
+    second: HeroKnight_Mirrored_28
   - first:
-      213: 21300058
-    second: HeroKnight_29
+      213: 9002480602879387462
+    second: HeroKnight_Mirrored_29
   - first:
-      213: 21300060
-    second: HeroKnight_30
+      213: 5784665925623265759
+    second: HeroKnight_Mirrored_30
   - first:
-      213: 21300062
-    second: HeroKnight_31
+      213: -2515941415054785281
+    second: HeroKnight_Mirrored_31
   - first:
-      213: 21300064
-    second: HeroKnight_32
+      213: 5728038485182902766
+    second: HeroKnight_Mirrored_32
   - first:
-      213: 21300066
-    second: HeroKnight_33
+      213: 9054774930546786437
+    second: HeroKnight_Mirrored_33
   - first:
-      213: 21300068
-    second: HeroKnight_34
+      213: -3512126070948904835
+    second: HeroKnight_Mirrored_34
   - first:
-      213: 21300070
-    second: HeroKnight_35
+      213: 2532641751142591943
+    second: HeroKnight_Mirrored_35
   - first:
-      213: 21300072
-    second: HeroKnight_36
+      213: 8849682157583455153
+    second: HeroKnight_Mirrored_36
   - first:
-      213: 21300074
-    second: HeroKnight_37
+      213: 9032222692650838845
+    second: HeroKnight_Mirrored_37
   - first:
-      213: 21300076
-    second: HeroKnight_38
+      213: 9183201187410477461
+    second: HeroKnight_Mirrored_38
   - first:
-      213: 21300078
-    second: HeroKnight_39
+      213: 9168390539406695057
+    second: HeroKnight_Mirrored_39
   - first:
-      213: 21300080
-    second: HeroKnight_40
+      213: 790845408390406078
+    second: HeroKnight_Mirrored_40
   - first:
-      213: 21300082
-    second: HeroKnight_41
+      213: 3974930910999958303
+    second: HeroKnight_Mirrored_41
   - first:
-      213: 21300084
-    second: HeroKnight_42
+      213: -6177309500256228087
+    second: HeroKnight_Mirrored_42
   - first:
-      213: 21300086
-    second: HeroKnight_43
+      213: -3123448919749435378
+    second: HeroKnight_Mirrored_43
   - first:
-      213: 21300088
-    second: HeroKnight_44
+      213: 7618323825970774530
+    second: HeroKnight_Mirrored_44
   - first:
-      213: 21300090
-    second: HeroKnight_45
+      213: -2006263878209142399
+    second: HeroKnight_Mirrored_45
   - first:
-      213: 21300092
-    second: HeroKnight_46
+      213: 5590296469018936798
+    second: HeroKnight_Mirrored_46
   - first:
-      213: 21300094
-    second: HeroKnight_47
+      213: -5904950128992096721
+    second: HeroKnight_Mirrored_47
   - first:
-      213: 21300096
-    second: HeroKnight_48
+      213: -1530201401292882086
+    second: HeroKnight_Mirrored_48
   - first:
-      213: 21300098
-    second: HeroKnight_49
+      213: -2520720093116241050
+    second: HeroKnight_Mirrored_49
   - first:
-      213: 21300100
-    second: HeroKnight_50
+      213: -7952097924121257341
+    second: HeroKnight_Mirrored_50
   - first:
-      213: 21300102
-    second: HeroKnight_51
+      213: 4689951688441597957
+    second: HeroKnight_Mirrored_51
   - first:
-      213: 21300104
-    second: HeroKnight_52
+      213: -2848724052433929242
+    second: HeroKnight_Mirrored_52
   - first:
-      213: 21300106
-    second: HeroKnight_53
+      213: 4429587722386931004
+    second: HeroKnight_Mirrored_53
   - first:
-      213: 21300108
-    second: HeroKnight_54
+      213: 3093853815190220883
+    second: HeroKnight_Mirrored_54
   - first:
-      213: 21300110
-    second: HeroKnight_55
+      213: 575278665481111004
+    second: HeroKnight_Mirrored_55
   - first:
-      213: 21300112
-    second: HeroKnight_56
+      213: -6534976587648392422
+    second: HeroKnight_Mirrored_56
   - first:
-      213: 21300114
-    second: HeroKnight_57
+      213: -7970295705901491987
+    second: HeroKnight_Mirrored_57
   - first:
-      213: 21300116
-    second: HeroKnight_58
+      213: 8343749923016245567
+    second: HeroKnight_Mirrored_58
   - first:
-      213: 21300118
-    second: HeroKnight_59
+      213: -4819955094291290504
+    second: HeroKnight_Mirrored_59
   - first:
-      213: 21300120
-    second: HeroKnight_60
+      213: -1990478348977019006
+    second: HeroKnight_Mirrored_60
   - first:
-      213: 21300122
-    second: HeroKnight_61
+      213: 5601809657338591516
+    second: HeroKnight_Mirrored_61
   - first:
-      213: 21300124
-    second: HeroKnight_62
+      213: -8138528003925453767
+    second: HeroKnight_Mirrored_62
   - first:
-      213: 21300126
-    second: HeroKnight_63
+      213: -3679405970792099624
+    second: HeroKnight_Mirrored_63
   - first:
-      213: 21300128
-    second: HeroKnight_64
+      213: -6286301799549407913
+    second: HeroKnight_Mirrored_64
   - first:
-      213: 21300130
-    second: HeroKnight_65
+      213: -8955029311734107326
+    second: HeroKnight_Mirrored_65
   - first:
-      213: 21300132
-    second: HeroKnight_66
+      213: 800262569566111563
+    second: HeroKnight_Mirrored_66
   - first:
-      213: 21300134
-    second: HeroKnight_67
+      213: 4442464236949637982
+    second: HeroKnight_Mirrored_67
   - first:
-      213: 21300136
-    second: HeroKnight_68
+      213: -1689072799986628352
+    second: HeroKnight_Mirrored_68
   - first:
-      213: 21300138
-    second: HeroKnight_69
+      213: -2975054332923637744
+    second: HeroKnight_Mirrored_69
   - first:
-      213: 21300140
-    second: HeroKnight_70
+      213: -3540197374830241085
+    second: HeroKnight_Mirrored_70
   - first:
-      213: 21300142
-    second: HeroKnight_71
+      213: -5285043351205692438
+    second: HeroKnight_Mirrored_71
   - first:
-      213: 21300144
-    second: HeroKnight_72
+      213: -7736742668472526598
+    second: HeroKnight_Mirrored_72
   - first:
-      213: 21300146
-    second: HeroKnight_73
+      213: 2714324949485937030
+    second: HeroKnight_Mirrored_73
   - first:
-      213: 21300148
-    second: HeroKnight_74
+      213: 4712454475844715509
+    second: HeroKnight_Mirrored_74
   - first:
-      213: 21300150
-    second: HeroKnight_75
+      213: -7419561695328845398
+    second: HeroKnight_Mirrored_75
   - first:
-      213: 21300152
-    second: HeroKnight_76
+      213: 790486069798483624
+    second: HeroKnight_Mirrored_76
   - first:
-      213: 21300154
-    second: HeroKnight_77
+      213: -6132360836905501365
+    second: HeroKnight_Mirrored_77
   - first:
-      213: 21300156
-    second: HeroKnight_78
+      213: 3785641470606533414
+    second: HeroKnight_Mirrored_78
   - first:
-      213: 21300158
-    second: HeroKnight_79
+      213: 2998090276743822584
+    second: HeroKnight_Mirrored_79
   - first:
-      213: 21300160
-    second: HeroKnight_80
+      213: 3254623373194668812
+    second: HeroKnight_Mirrored_80
   - first:
-      213: 21300162
-    second: HeroKnight_81
+      213: -2573731690689358713
+    second: HeroKnight_Mirrored_81
   - first:
-      213: 21300164
-    second: HeroKnight_82
+      213: 8189402211882867227
+    second: HeroKnight_Mirrored_82
   - first:
-      213: 21300166
-    second: HeroKnight_83
+      213: -7189269483222296303
+    second: HeroKnight_Mirrored_83
   - first:
-      213: 21300168
-    second: HeroKnight_84
+      213: 4506266649762972064
+    second: HeroKnight_Mirrored_84
   - first:
-      213: 21300170
-    second: HeroKnight_85
+      213: 5079039228204984391
+    second: HeroKnight_Mirrored_85
   - first:
-      213: 21300172
-    second: HeroKnight_86
+      213: 3236905478776096187
+    second: HeroKnight_Mirrored_86
   - first:
-      213: 21300174
-    second: HeroKnight_87
+      213: -5906132809808482651
+    second: HeroKnight_Mirrored_87
   - first:
-      213: 21300176
-    second: HeroKnight_88
+      213: -1013968203656835541
+    second: HeroKnight_Mirrored_88
   - first:
-      213: 21300178
-    second: HeroKnight_89
-  - first:
-      213: -7357797988063737743
-    second: HeroKnight_0
-  - first:
-      213: 3512593026476662326
-    second: HeroKnight_1
-  - first:
-      213: -124786382948628084
-    second: HeroKnight_2
-  - first:
-      213: 7970523947391987758
-    second: HeroKnight_3
-  - first:
-      213: -7787729717272468553
-    second: HeroKnight_4
-  - first:
-      213: 2125910826022465951
-    second: HeroKnight_5
-  - first:
-      213: 252653891942459300
-    second: HeroKnight_6
-  - first:
-      213: -8388972923550342200
-    second: HeroKnight_7
-  - first:
-      213: 3323923944230278279
-    second: HeroKnight_8
-  - first:
-      213: -8337154125909986106
-    second: HeroKnight_9
-  - first:
-      213: -5098964010609699078
-    second: HeroKnight_10
-  - first:
-      213: -1235302168702799205
-    second: HeroKnight_11
-  - first:
-      213: -1060617727152267471
-    second: HeroKnight_12
-  - first:
-      213: 3655784061218813123
-    second: HeroKnight_13
-  - first:
-      213: -1264463737979248643
-    second: HeroKnight_14
-  - first:
-      213: 6318752081942698288
-    second: HeroKnight_15
-  - first:
-      213: 3976493821104330473
-    second: HeroKnight_16
-  - first:
-      213: 5966382329375329461
-    second: HeroKnight_17
-  - first:
-      213: -3176810353904627769
-    second: HeroKnight_18
-  - first:
-      213: -5993887360652194665
-    second: HeroKnight_19
-  - first:
-      213: 4711292185766173509
-    second: HeroKnight_20
-  - first:
-      213: 946427592695480334
-    second: HeroKnight_21
-  - first:
-      213: -4894418960276772857
-    second: HeroKnight_22
-  - first:
-      213: 2885050567975417819
-    second: HeroKnight_23
-  - first:
-      213: 973927010134293491
-    second: HeroKnight_24
-  - first:
-      213: 6341982509133532500
-    second: HeroKnight_25
-  - first:
-      213: 753305953665342046
-    second: HeroKnight_26
-  - first:
-      213: 6313690391001604011
-    second: HeroKnight_27
-  - first:
-      213: -4245077406475783197
-    second: HeroKnight_28
-  - first:
-      213: 4453959963325820934
-    second: HeroKnight_29
-  - first:
-      213: 1791934506739023117
-    second: HeroKnight_30
-  - first:
-      213: -4137450849949020332
-    second: HeroKnight_31
-  - first:
-      213: -5134731514218233545
-    second: HeroKnight_32
-  - first:
-      213: -582058313250614197
-    second: HeroKnight_33
-  - first:
-      213: -5130382960978514348
-    second: HeroKnight_34
-  - first:
-      213: -6014022660474136463
-    second: HeroKnight_35
-  - first:
-      213: 4873965464126267751
-    second: HeroKnight_36
-  - first:
-      213: -575750697980779115
-    second: HeroKnight_37
-  - first:
-      213: -504967399503113872
-    second: HeroKnight_38
-  - first:
-      213: 3588385130084391501
-    second: HeroKnight_39
-  - first:
-      213: -7621990347924620012
-    second: HeroKnight_40
-  - first:
-      213: 358428806763893455
-    second: HeroKnight_41
-  - first:
-      213: -672906263598977215
-    second: HeroKnight_42
-  - first:
-      213: -5499143247290303553
-    second: HeroKnight_43
-  - first:
-      213: -3268870572185850169
-    second: HeroKnight_44
-  - first:
-      213: -4870082807181345482
-    second: HeroKnight_45
-  - first:
-      213: -8456527112066601790
-    second: HeroKnight_46
-  - first:
-      213: -975723088991628463
-    second: HeroKnight_47
-  - first:
-      213: 2085106817689865712
-    second: HeroKnight_48
-  - first:
-      213: -5337273099258485124
-    second: HeroKnight_49
-  - first:
-      213: 3765553826894037235
-    second: HeroKnight_50
-  - first:
-      213: 2248196255204965181
-    second: HeroKnight_51
-  - first:
-      213: -4112107698468626969
-    second: HeroKnight_52
-  - first:
-      213: 6814800164921709591
-    second: HeroKnight_53
-  - first:
-      213: 7215491874182366598
-    second: HeroKnight_54
-  - first:
-      213: 8916276743974120342
-    second: HeroKnight_55
-  - first:
-      213: 7450784991418527920
-    second: HeroKnight_56
-  - first:
-      213: 6182240301916592527
-    second: HeroKnight_57
-  - first:
-      213: -1441633551177549439
-    second: HeroKnight_58
-  - first:
-      213: -7346772227376761501
-    second: HeroKnight_59
-  - first:
-      213: 1083209462468502394
-    second: HeroKnight_60
-  - first:
-      213: -899773550075009147
-    second: HeroKnight_61
-  - first:
-      213: 7908077213219410035
-    second: HeroKnight_62
-  - first:
-      213: 8991151664634894510
-    second: HeroKnight_63
-  - first:
-      213: 8033672922746860508
-    second: HeroKnight_64
-  - first:
-      213: -2956777940927116518
-    second: HeroKnight_65
-  - first:
-      213: -3378368782454778923
-    second: HeroKnight_66
-  - first:
-      213: -5976487082683598045
-    second: HeroKnight_67
-  - first:
-      213: -2979076345342783400
-    second: HeroKnight_68
-  - first:
-      213: 1117901136893291585
-    second: HeroKnight_69
-  - first:
-      213: -4841384895507565432
-    second: HeroKnight_70
-  - first:
-      213: -4821242456201728152
-    second: HeroKnight_71
-  - first:
-      213: 1527045960694179484
-    second: HeroKnight_72
-  - first:
-      213: -6647386495125142441
-    second: HeroKnight_73
-  - first:
-      213: -6402147663238019225
-    second: HeroKnight_74
-  - first:
-      213: 7384348661338487032
-    second: HeroKnight_75
-  - first:
-      213: 3789121594438123221
-    second: HeroKnight_76
-  - first:
-      213: -7088592959811703965
-    second: HeroKnight_77
-  - first:
-      213: 4815745753748979736
-    second: HeroKnight_78
-  - first:
-      213: 7809183637874724509
-    second: HeroKnight_79
-  - first:
-      213: -8815784538151309842
-    second: HeroKnight_80
-  - first:
-      213: 3182929768041914423
-    second: HeroKnight_81
-  - first:
-      213: -6941053056645262639
-    second: HeroKnight_82
-  - first:
-      213: -1351689395503517949
-    second: HeroKnight_83
-  - first:
-      213: 5535971919508268693
-    second: HeroKnight_84
-  - first:
-      213: 3622809048791833595
-    second: HeroKnight_85
-  - first:
-      213: 7862825127739834755
-    second: HeroKnight_86
-  - first:
-      213: 5138135816391183870
-    second: HeroKnight_87
-  - first:
-      213: 2639929186425698602
-    second: HeroKnight_88
-  - first:
-      213: -8138995811250331855
-    second: HeroKnight_89
-  - first:
-      213: 1227722658420683368
-    second: HeroKnight_90
-  - first:
-      213: -62067134549690196
-    second: HeroKnight_91
-  - first:
-      213: -7313229396200468683
-    second: HeroKnight_92
-  - first:
-      213: -174334233137331589
-    second: HeroKnight_93
-  - first:
-      213: -42741680232501389
-    second: HeroKnight_94
-  - first:
-      213: -2362708491808412524
-    second: HeroKnight_95
-  - first:
-      213: 3774292359259812771
-    second: HeroKnight_96
-  - first:
-      213: -4470232969560965712
-    second: HeroKnight_97
-  - first:
-      213: -6873373922252656815
-    second: HeroKnight_98
-  - first:
-      213: -2736722427549870440
-    second: HeroKnight_99
-  - first:
-      213: 1624908221323478781
-    second: HeroKnight_100
-  - first:
-      213: -6969470571307464846
-    second: HeroKnight_101
+      213: 7087973287041079300
+    second: HeroKnight_Mirrored_89
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -633,14 +327,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -652,7 +346,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -664,7 +358,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -675,11 +369,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroKnight_0
+      name: HeroKnight_Mirrored_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -689,18 +383,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 178806096b9d3e990800000000000000
-      internalID: -7357797988063737743
+      spriteID: 29b1278d50768ff80800000000000000
+      internalID: -8072589057257759854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_1
+      name: HeroKnight_Mirrored_1
       rect:
         serializedVersion: 2
         x: 100
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -710,18 +404,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63ed7af3fbc3fb030800000000000000
-      internalID: 3512593026476662326
+      spriteID: b3b6d50bfe9b27d10800000000000000
+      internalID: 2121962813552159547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_2
+      name: HeroKnight_Mirrored_2
       rect:
         serializedVersion: 2
         x: 200
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -731,18 +425,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c898a83227ba44ef0800000000000000
-      internalID: -124786382948628084
+      spriteID: 97041dd00396b41e0800000000000000
+      internalID: -2212559136811302791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_3
+      name: HeroKnight_Mirrored_3
       rect:
         serializedVersion: 2
         x: 300
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -752,18 +446,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e203b0eec4dfc9e60800000000000000
-      internalID: 7970523947391987758
+      spriteID: 4cba6fc5419598fb0800000000000000
+      internalID: -4645083596662068284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_4
+      name: HeroKnight_Mirrored_4
       rect:
         serializedVersion: 2
         x: 400
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -773,18 +467,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b3a833551d6ce390800000000000000
-      internalID: -7787729717272468553
+      spriteID: b8b5a29c177c16650800000000000000
+      internalID: 6224475451522964363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_5
+      name: HeroKnight_Mirrored_5
       rect:
         serializedVersion: 2
         x: 500
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -794,18 +488,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f91f939f1a0c08d10800000000000000
-      internalID: 2125910826022465951
+      spriteID: 8cf5949a1d0e96900800000000000000
+      internalID: 678320409988915144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_6
+      name: HeroKnight_Mirrored_6
       rect:
         serializedVersion: 2
         x: 600
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -815,18 +509,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a7a958406b918300800000000000000
-      internalID: 252653891942459300
+      spriteID: ca0123ee0c3135cc0800000000000000
+      internalID: -3723610747554361172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_7
+      name: HeroKnight_Mirrored_7
       rect:
         serializedVersion: 2
         x: 700
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -836,18 +530,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3696d9291649b80800000000000000
-      internalID: -8388972923550342200
+      spriteID: 5afaee27c5abb8220800000000000000
+      internalID: 2489288125280333733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_8
+      name: HeroKnight_Mirrored_8
       rect:
         serializedVersion: 2
         x: 800
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -857,18 +551,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 784d2446733f02e20800000000000000
-      internalID: 3323923944230278279
+      spriteID: e4835dbc44d417fb0800000000000000
+      internalID: -4651851982224148402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_9
+      name: HeroKnight_Mirrored_9
       rect:
         serializedVersion: 2
         x: 900
-        y: 440
+        y: 439
         width: 100
         height: 55
       alignment: 0
@@ -878,18 +572,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c4f37f9e7a7c4c80800000000000000
-      internalID: -8337154125909986106
+      spriteID: 29a1a17f48a57ff60800000000000000
+      internalID: 8068016784585398930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_10
+      name: HeroKnight_Mirrored_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -899,18 +593,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af69b117f37dc39b0800000000000000
-      internalID: -5098964010609699078
+      spriteID: eee03f98715f51ca0800000000000000
+      internalID: -6046657443227562258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_11
+      name: HeroKnight_Mirrored_11
       rect:
         serializedVersion: 2
         x: 100
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -920,18 +614,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b923334f8335bdee0800000000000000
-      internalID: -1235302168702799205
+      spriteID: e787675fc061a76c0800000000000000
+      internalID: -4144976262127519618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_12
+      name: HeroKnight_Mirrored_12
       rect:
         serializedVersion: 2
         x: 200
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -941,18 +635,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f5b9aebcde741f0800000000000000
-      internalID: -1060617727152267471
+      spriteID: cde84b3456accdd40800000000000000
+      internalID: 5610581772073209564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_13
+      name: HeroKnight_Mirrored_13
       rect:
         serializedVersion: 2
         x: 300
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -962,18 +656,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c47b780c34fbb230800000000000000
-      internalID: 3655784061218813123
+      spriteID: 9bbd1b3ff282d79a0800000000000000
+      internalID: -6233782122793804871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_14
+      name: HeroKnight_Mirrored_14
       rect:
         serializedVersion: 2
         x: 400
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -983,18 +677,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff52620ee8b37ee0800000000000000
-      internalID: -1264463737979248643
+      spriteID: abad665c70bbf2750800000000000000
+      internalID: 6282445647256148666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_15
+      name: HeroKnight_Mirrored_15
       rect:
         serializedVersion: 2
         x: 500
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -1004,18 +698,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03954f35a87b0b750800000000000000
-      internalID: 6318752081942698288
+      spriteID: 30b72405630d8cf70800000000000000
+      internalID: 9207838369852324611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_16
+      name: HeroKnight_Mirrored_16
       rect:
         serializedVersion: 2
         x: 600
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -1025,18 +719,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6957adf085f2730800000000000000
-      internalID: 3976493821104330473
+      spriteID: 66c5e3bc849a80550800000000000000
+      internalID: 6127333423150160998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_17
+      name: HeroKnight_Mirrored_17
       rect:
         serializedVersion: 2
         x: 700
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -1046,18 +740,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc85980e19dcc250800000000000000
-      internalID: 5966382329375329461
+      spriteID: 67baec1d00c7768b0800000000000000
+      internalID: -5159018505167787146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_18
+      name: HeroKnight_Mirrored_18
       rect:
         serializedVersion: 2
         x: 800
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -1067,18 +761,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf4bb880d3b9e3d0800000000000000
-      internalID: -3176810353904627769
+      spriteID: 3e3429a52bd129b30800000000000000
+      internalID: 4292526046698423267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_19
+      name: HeroKnight_Mirrored_19
       rect:
         serializedVersion: 2
         x: 900
-        y: 385
+        y: 384
         width: 100
         height: 55
       alignment: 0
@@ -1088,18 +782,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c4f94d33f61dca0800000000000000
-      internalID: -5993887360652194665
+      spriteID: e78a7756ac9787960800000000000000
+      internalID: 7599958281380407422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_20
+      name: HeroKnight_Mirrored_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1109,18 +803,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54b9aad084fd16140800000000000000
-      internalID: 4711292185766173509
+      spriteID: 9bcf6f8a822c63970800000000000000
+      internalID: 8734382007220894905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_21
+      name: HeroKnight_Mirrored_21
       rect:
         serializedVersion: 2
         x: 100
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1130,18 +824,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e000e3491e2622d00800000000000000
-      internalID: 946427592695480334
+      spriteID: a743990dc52e522c0800000000000000
+      internalID: -4456907367948667782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_22
+      name: HeroKnight_Mirrored_22
       rect:
         serializedVersion: 2
         x: 200
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1151,18 +845,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70824ca23e7831cb0800000000000000
-      internalID: -4894418960276772857
+      spriteID: d744207525aa8e240800000000000000
+      internalID: 4821290671723922557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_23
+      name: HeroKnight_Mirrored_23
       rect:
         serializedVersion: 2
         x: 300
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1172,18 +866,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7b637b432c90820800000000000000
-      internalID: 2885050567975417819
+      spriteID: 827c3ec1d6dd3d2c0800000000000000
+      internalID: -4407936149559720152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_24
+      name: HeroKnight_Mirrored_24
       rect:
         serializedVersion: 2
         x: 400
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1193,18 +887,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb7634a475148d00800000000000000
-      internalID: 973927010134293491
+      spriteID: 283a9fe8dd040f2f0800000000000000
+      internalID: -941181001789758590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_25
+      name: HeroKnight_Mirrored_25
       rect:
         serializedVersion: 2
         x: 500
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1214,18 +908,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45d05a4ad7f330850800000000000000
-      internalID: 6341982509133532500
+      spriteID: 3bf8ad2654073d740800000000000000
+      internalID: 5175603840092377011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_26
+      name: HeroKnight_Mirrored_26
       rect:
         serializedVersion: 2
         x: 600
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1235,18 +929,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5ad86f06c7447a00800000000000000
-      internalID: 753305953665342046
+      spriteID: 0ffb2e7ceaabb9820800000000000000
+      internalID: 2926137642747871216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_27
+      name: HeroKnight_Mirrored_27
       rect:
         serializedVersion: 2
         x: 700
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1256,18 +950,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf927195fbbe9750800000000000000
-      internalID: 6313690391001604011
+      spriteID: 771d09f416708e330800000000000000
+      internalID: 3740247605059309943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_28
+      name: HeroKnight_Mirrored_28
       rect:
         serializedVersion: 2
         x: 800
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1277,18 +971,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e379f617947615c0800000000000000
-      internalID: -4245077406475783197
+      spriteID: 42db5219faa26cae0800000000000000
+      internalID: -1529488089902891740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_29
+      name: HeroKnight_Mirrored_29
       rect:
         serializedVersion: 2
         x: 900
-        y: 330
+        y: 329
         width: 100
         height: 55
       alignment: 0
@@ -1298,18 +992,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 600f8d11df4afcd30800000000000000
-      internalID: 4453959963325820934
+      spriteID: 64768ff396c3fec70800000000000000
+      internalID: 9002480602879387462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_30
+      name: HeroKnight_Mirrored_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1319,18 +1013,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0db1f690fa3ed810800000000000000
-      internalID: 1791934506739023117
+      spriteID: fd9b419c203474050800000000000000
+      internalID: 5784665925623265759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_31
+      name: HeroKnight_Mirrored_31
       rect:
         serializedVersion: 2
         x: 100
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1340,18 +1034,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f86258f52d496c0800000000000000
-      internalID: -4137450849949020332
+      spriteID: ff447ffec94951dd0800000000000000
+      internalID: -2515941415054785281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_32
+      name: HeroKnight_Mirrored_32
       rect:
         serializedVersion: 2
         x: 200
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1361,18 +1055,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 731c40e84e4cdb8b0800000000000000
-      internalID: -5134731514218233545
+      spriteID: ee1f71167a41e7f40800000000000000
+      internalID: 5728038485182902766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_33
+      name: HeroKnight_Mirrored_33
       rect:
         serializedVersion: 2
         x: 300
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1382,18 +1076,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4452284c0d1ce7f0800000000000000
-      internalID: -582058313250614197
+      spriteID: 5808a5833d509ad70800000000000000
+      internalID: 9054774930546786437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_34
+      name: HeroKnight_Mirrored_34
       rect:
         serializedVersion: 2
         x: 400
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1403,18 +1097,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ea82101e73dc8b0800000000000000
-      internalID: -5130382960978514348
+      spriteID: d70c3be42fb624fc0800000000000000
+      internalID: -3512126070948904835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_35
+      name: HeroKnight_Mirrored_35
       rect:
         serializedVersion: 2
         x: 500
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1424,18 +1118,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1781a430146e98ca0800000000000000
-      internalID: -6014022660474136463
+      spriteID: 7cd6d201140c52320800000000000000
+      internalID: 2532641751142591943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_36
+      name: HeroKnight_Mirrored_36
       rect:
         serializedVersion: 2
         x: 600
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1445,18 +1139,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 761a4c824cdc3a340800000000000000
-      internalID: 4873965464126267751
+      spriteID: 1b3dfd1e80360da70800000000000000
+      internalID: 8849682157583455153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_37
+      name: HeroKnight_Mirrored_37
       rect:
         serializedVersion: 2
         x: 700
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1466,18 +1160,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5952ca76ac58208f0800000000000000
-      internalID: -575750697980779115
+      spriteID: d3beca72fa6e85d70800000000000000
+      internalID: 9032222692650838845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_38
+      name: HeroKnight_Mirrored_38
       rect:
         serializedVersion: 2
         x: 800
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1487,18 +1181,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 071d67953defdf8f0800000000000000
-      internalID: -504967399503113872
+      spriteID: 5910c8443d8417f70800000000000000
+      internalID: 9183201187410477461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_39
+      name: HeroKnight_Mirrored_39
       rect:
         serializedVersion: 2
         x: 900
-        y: 275
+        y: 274
         width: 100
         height: 55
       alignment: 0
@@ -1508,18 +1202,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4a59f383418cc130800000000000000
-      internalID: 3588385130084391501
+      spriteID: 19a536f8e9aac3f70800000000000000
+      internalID: 9168390539406695057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_40
+      name: HeroKnight_Mirrored_40
       rect:
         serializedVersion: 2
         x: 0
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1529,18 +1223,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41d3f7e5920493690800000000000000
-      internalID: -7621990347924620012
+      spriteID: ebfdb5775b5a9fa00800000000000000
+      internalID: 790845408390406078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_41
+      name: HeroKnight_Mirrored_41
       rect:
         serializedVersion: 2
         x: 100
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1550,18 +1244,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2dd68c91569f400800000000000000
-      internalID: 358428806763893455
+      spriteID: f135fdc7a9ac92730800000000000000
+      internalID: 3974930910999958303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_42
+      name: HeroKnight_Mirrored_42
       rect:
         serializedVersion: 2
         x: 200
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1571,18 +1265,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f2c07815b59a6f0800000000000000
-      internalID: -672906263598977215
+      spriteID: 90de4910db9c54aa0800000000000000
+      internalID: -6177309500256228087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_43
+      name: HeroKnight_Mirrored_43
       rect:
         serializedVersion: 2
         x: 300
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1592,18 +1286,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbbf5403a5e1fa3b0800000000000000
-      internalID: -5499143247290303553
+      spriteID: e00e14891c747a4d0800000000000000
+      internalID: -3123448919749435378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_44
+      name: HeroKnight_Mirrored_44
       rect:
         serializedVersion: 2
         x: 400
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1613,18 +1307,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ce6228a883a2a2d0800000000000000
-      internalID: -3268870572185850169
+      spriteID: 20202e6f729b9b960800000000000000
+      internalID: 7618323825970774530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_45
+      name: HeroKnight_Mirrored_45
       rect:
         serializedVersion: 2
         x: 500
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1634,18 +1328,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63df73b5d7df96cb0800000000000000
-      internalID: -4870082807181345482
+      spriteID: 18185a5e1a15824e0800000000000000
+      internalID: -2006263878209142399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_46
+      name: HeroKnight_Mirrored_46
       rect:
         serializedVersion: 2
         x: 600
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1655,18 +1349,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc6fcb656164aa80800000000000000
-      internalID: -8456527112066601790
+      spriteID: ed58ef81509b49d40800000000000000
+      internalID: 5590296469018936798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_47
+      name: HeroKnight_Mirrored_47
       rect:
         serializedVersion: 2
         x: 700
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1676,18 +1370,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 153d18925098572f0800000000000000
-      internalID: -975723088991628463
+      spriteID: f2e6709b4276d0ea0800000000000000
+      internalID: -5904950128992096721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_48
+      name: HeroKnight_Mirrored_48
       rect:
         serializedVersion: 2
         x: 800
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1697,18 +1391,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fd46237a99cfec10800000000000000
-      internalID: 2085106817689865712
+      spriteID: a5ff121dee1a3cae0800000000000000
+      internalID: -1530201401292882086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_49
+      name: HeroKnight_Mirrored_49
       rect:
         serializedVersion: 2
         x: 900
-        y: 220
+        y: 219
         width: 100
         height: 55
       alignment: 0
@@ -1718,18 +1412,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c762371f4623ee5b0800000000000000
-      internalID: -5337273099258485124
+      spriteID: 66bed9f3e6a940dd0800000000000000
+      internalID: -2520720093116241050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_50
+      name: HeroKnight_Mirrored_50
       rect:
         serializedVersion: 2
         x: 0
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1739,18 +1433,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0c1aa314fe14430800000000000000
-      internalID: 3765553826894037235
+      spriteID: 38a91ade11974a190800000000000000
+      internalID: -7952097924121257341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_51
+      name: HeroKnight_Mirrored_51
       rect:
         serializedVersion: 2
         x: 100
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1760,18 +1454,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3bfad82592333f10800000000000000
-      internalID: 2248196255204965181
+      spriteID: 5001e43563e061140800000000000000
+      internalID: 4689951688441597957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_52
+      name: HeroKnight_Mirrored_52
       rect:
         serializedVersion: 2
         x: 200
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1781,18 +1475,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7edd0aac5dbdee6c0800000000000000
-      internalID: -4112107698468626969
+      spriteID: 6eb7097419c4778d0800000000000000
+      internalID: -2848724052433929242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_53
+      name: HeroKnight_Mirrored_53
       rect:
         serializedVersion: 2
         x: 300
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1802,18 +1496,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7149e65c4a8039e50800000000000000
-      internalID: 6814800164921709591
+      spriteID: c3dfd46809e097d30800000000000000
+      internalID: 4429587722386931004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_54
+      name: HeroKnight_Mirrored_54
       rect:
         serializedVersion: 2
         x: 400
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1823,18 +1517,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6858b5851a3922460800000000000000
-      internalID: 7215491874182366598
+      spriteID: 350766927a39fea20800000000000000
+      internalID: 3093853815190220883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_55
+      name: HeroKnight_Mirrored_55
       rect:
         serializedVersion: 2
         x: 500
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1844,18 +1538,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b67ab457afcbb70800000000000000
-      internalID: 8916276743974120342
+      spriteID: cd5ccd6f5eccbf700800000000000000
+      internalID: 575278665481111004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_56
+      name: HeroKnight_Mirrored_56
       rect:
         serializedVersion: 2
         x: 600
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1865,18 +1559,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b030574971866760800000000000000
-      internalID: 7450784991418527920
+      spriteID: a1329b5da691f45a0800000000000000
+      internalID: -6534976587648392422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_57
+      name: HeroKnight_Mirrored_57
       rect:
         serializedVersion: 2
         x: 700
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1886,18 +1580,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8997d7bccabbc550800000000000000
-      internalID: 6182240301916592527
+      spriteID: de89beea842d36190800000000000000
+      internalID: -7970295705901491987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_58
+      name: HeroKnight_Mirrored_58
       rect:
         serializedVersion: 2
         x: 800
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1907,18 +1601,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 189f6cd5ce94efbe0800000000000000
-      internalID: -1441633551177549439
+      spriteID: f3183101954fac370800000000000000
+      internalID: 8343749923016245567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_59
+      name: HeroKnight_Mirrored_59
       rect:
         serializedVersion: 2
         x: 900
-        y: 165
+        y: 164
         width: 100
         height: 55
       alignment: 0
@@ -1928,18 +1622,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365b08585950b0a90800000000000000
-      internalID: -7346772227376761501
+      spriteID: 876ee6301641c1db0800000000000000
+      internalID: -4819955094291290504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_60
+      name: HeroKnight_Mirrored_60
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -1949,18 +1643,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73e6cb5445580f00800000000000000
-      internalID: 1083209462468502394
+      spriteID: 2876e14dc766064e0800000000000000
+      internalID: -1990478348977019006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_61
+      name: HeroKnight_Mirrored_61
       rect:
         serializedVersion: 2
         x: 100
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -1970,18 +1664,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 587ac7139bc5383f0800000000000000
-      internalID: -899773550075009147
+      spriteID: c19f4052430adbd40800000000000000
+      internalID: 5601809657338591516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_62
+      name: HeroKnight_Mirrored_62
       rect:
         serializedVersion: 2
         x: 200
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -1991,18 +1685,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370dd4e93522fbd60800000000000000
-      internalID: 7908077213219410035
+      spriteID: 934547376e32e0f80800000000000000
+      internalID: -8138528003925453767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_63
+      name: HeroKnight_Mirrored_63
       rect:
         serializedVersion: 2
         x: 300
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2012,18 +1706,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea899344dccf6cc70800000000000000
-      internalID: 8991151664634894510
+      spriteID: 8d05c7e83cf10fcc0800000000000000
+      internalID: -3679405970792099624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_64
+      name: HeroKnight_Mirrored_64
       rect:
         serializedVersion: 2
         x: 400
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2033,18 +1727,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3300285f65d7f60800000000000000
-      internalID: 8033672922746860508
+      spriteID: 75d65fec1d192c8a0800000000000000
+      internalID: -6286301799549407913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_65
+      name: HeroKnight_Mirrored_65
       rect:
         serializedVersion: 2
         x: 500
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2054,18 +1748,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1b045fd02a67f6d0800000000000000
-      internalID: -2956777940927116518
+      spriteID: 243b0e8694859b380800000000000000
+      internalID: -8955029311734107326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_66
+      name: HeroKnight_Mirrored_66
       rect:
         serializedVersion: 2
         x: 600
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2075,18 +1769,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d39381ed7f9d11d0800000000000000
-      internalID: -3378368782454778923
+      spriteID: b47870a219a1b1b00800000000000000
+      internalID: 800262569566111563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_67
+      name: HeroKnight_Mirrored_67
       rect:
         serializedVersion: 2
         x: 700
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2096,18 +1790,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32bfeefb9a04f0da0800000000000000
-      internalID: -5976487082683598045
+      spriteID: e5b82c2bfadc6ad30800000000000000
+      internalID: 4442464236949637982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_68
+      name: HeroKnight_Mirrored_68
       rect:
         serializedVersion: 2
         x: 800
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2117,18 +1811,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850131509d138a6d0800000000000000
-      internalID: -2979076345342783400
+      spriteID: 009c50dcc353f88e0800000000000000
+      internalID: -1689072799986628352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_69
+      name: HeroKnight_Mirrored_69
       rect:
         serializedVersion: 2
         x: 900
-        y: 110
+        y: 109
         width: 100
         height: 55
       alignment: 0
@@ -2138,18 +1832,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ca78e3925938f00800000000000000
-      internalID: 1117901136893291585
+      spriteID: 0109992c8db76b6d0800000000000000
+      internalID: -2975054332923637744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_70
+      name: HeroKnight_Mirrored_70
       rect:
         serializedVersion: 2
         x: 0
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2159,18 +1853,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884745a9612ffccb0800000000000000
-      internalID: -4841384895507565432
+      spriteID: 3ca197e8e31bedec0800000000000000
+      internalID: -3540197374830241085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_71
+      name: HeroKnight_Mirrored_71
       rect:
         serializedVersion: 2
         x: 100
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2180,18 +1874,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f6016b781871db0800000000000000
-      internalID: -4821242456201728152
+      spriteID: aeb38dcc211c7a6b0800000000000000
+      internalID: -5285043351205692438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_72
+      name: HeroKnight_Mirrored_72
       rect:
         serializedVersion: 2
         x: 200
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2201,18 +1895,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c962fdae538213510800000000000000
-      internalID: 1527045960694179484
+      spriteID: af85617b88191a490800000000000000
+      internalID: -7736742668472526598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_73
+      name: HeroKnight_Mirrored_73
       rect:
         serializedVersion: 2
         x: 300
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2222,18 +1916,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7544659b33dbfb3a0800000000000000
-      internalID: -6647386495125142441
+      spriteID: 681e61319283ba520800000000000000
+      internalID: 2714324949485937030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_74
+      name: HeroKnight_Mirrored_74
       rect:
         serializedVersion: 2
         x: 400
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2243,18 +1937,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767c91dce900727a0800000000000000
-      internalID: -6402147663238019225
+      spriteID: 5f38cecc060066140800000000000000
+      internalID: 4712454475844715509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_75
+      name: HeroKnight_Mirrored_75
       rect:
         serializedVersion: 2
         x: 500
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2264,18 +1958,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f836b8cbf97a7660800000000000000
-      internalID: 7384348661338487032
+      spriteID: aa144d8d2fb680990800000000000000
+      internalID: -7419561695328845398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_76
+      name: HeroKnight_Mirrored_76
       rect:
         serializedVersion: 2
         x: 600
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2285,18 +1979,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5defe37b30aa59430800000000000000
-      internalID: 3789121594438123221
+      spriteID: 8a6bb3e64ee58fa00800000000000000
+      internalID: 790486069798483624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_77
+      name: HeroKnight_Mirrored_77
       rect:
         serializedVersion: 2
         x: 700
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2306,18 +2000,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ba611924240ad90800000000000000
-      internalID: -7088592959811703965
+      spriteID: b4dfab93f4a75eaa0800000000000000
+      internalID: -6132360836905501365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_78
+      name: HeroKnight_Mirrored_78
       rect:
         serializedVersion: 2
         x: 800
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2327,18 +2021,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 810cdc48f37f4d240800000000000000
-      internalID: 4815745753748979736
+      spriteID: 6236d7e3cdc498430800000000000000
+      internalID: 3785641470606533414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_79
+      name: HeroKnight_Mirrored_79
       rect:
         serializedVersion: 2
         x: 900
-        y: 55
+        y: 54
         width: 100
         height: 55
       alignment: 0
@@ -2348,218 +2042,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ec051d42bcf5c60800000000000000
-      internalID: 7809183637874724509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_80
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eed2c1babaa08a580800000000000000
-      internalID: -8815784538151309842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_81
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 730a72992c90c2c20800000000000000
-      internalID: 3182929768041914423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_82
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d2158f250d6caf90800000000000000
-      internalID: -6941053056645262639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_83
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30fa95608a5dd3de0800000000000000
-      internalID: -1351689395503517949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_84
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 596e3d44129b3dc40800000000000000
-      internalID: 5535971919508268693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_85
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfbde4aa2adc64230800000000000000
-      internalID: 3622809048791833595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_86
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 381c2fd6bcd5e1d60800000000000000
-      internalID: 7862825127739834755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_87
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efd45bf4d435e4740800000000000000
-      internalID: 5138135816391183870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_88
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a29f61dab99e2a420800000000000000
-      internalID: 2639929186425698602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_89
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 0
-        width: 100
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13f18029e6a7c0f80800000000000000
-      internalID: -8138995811250331855
+      spriteID: 8fc3eddd83b5b9920800000000000000
+      internalID: 2998090276743822584
       vertices: []
       indices: 
       edges: []
@@ -2567,7 +2051,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8a123db65155bf1438dffb9aefe2380c
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
