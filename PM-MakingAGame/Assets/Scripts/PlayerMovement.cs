@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     // Vector aanmaken waar we x-co en y-co in opslagen
     Vector2 movement;
 
-    //public Animator Animation;
+    public Animator Animation;
 
 
     void Update()
@@ -21,9 +21,9 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         movement.x = Input.GetAxisRaw("Horizontal");
 
-        //Animation.SetFloat("Vertical", movement.y);
-        //Animation.SetFloat("Horizontal", movement.x);
-        //Animation.SetFloat("Speed", movement.sqrMagnitude);
+        Animation.SetFloat("Vertical", movement.y);
+        Animation.SetFloat("Horizontal", movement.x);
+        Animation.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     private void FixedUpdate()
