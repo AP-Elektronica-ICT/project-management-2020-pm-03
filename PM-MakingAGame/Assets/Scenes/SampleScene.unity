@@ -2391,7 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c3fd4dfe4d0d48a1b5dc02b667adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 1001542159}
   attackPoint: {fileID: 0}
   EnemyLayers:
     serializedVersion: 2
