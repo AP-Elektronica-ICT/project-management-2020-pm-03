@@ -24,6 +24,12 @@ public class PlayerMovement : MonoBehaviour
         Animation.SetFloat("Vertical", movement.y);
         Animation.SetFloat("Horizontal", movement.x);
         Animation.SetFloat("Speed", movement.sqrMagnitude);
+
+        // Juiste idle richting
+        if (Input.GetAxisRaw("Horizontal") == 1)
+            Animation.SetFloat("LastMove", 1);
+        if (Input.GetAxisRaw("Horizontal") == -1)
+            Animation.SetFloat("LastMove", -1);
     }
 
     private void FixedUpdate()
