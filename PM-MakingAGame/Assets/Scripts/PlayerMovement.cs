@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator Animation;
 
+    public Transform attackPoint;
+
 
     void Update()
     {
@@ -27,9 +29,18 @@ public class PlayerMovement : MonoBehaviour
 
         // Juiste idle richting
         if (Input.GetAxisRaw("Horizontal") == 1)
+        {
             Animation.SetFloat("LastMove", 1);
-        if (Input.GetAxisRaw("Horizontal") == -1)
+            
+            attackPoint.localPosition = new Vector3(1, 0);
+        }
+            
+        else if (Input.GetAxisRaw("Horizontal") == -1)
+        {
             Animation.SetFloat("LastMove", -1);
+            attackPoint.localPosition = new Vector3(-1,0);
+        }
+            
     }
 
     private void FixedUpdate()
