@@ -2275,6 +2275,7 @@ MonoBehaviour:
   MovementSpeed: 5
   RigidBody: {fileID: 1001542156}
   Animation: {fileID: 1001542159}
+  attackPoint: {fileID: 1444340875}
 --- !u!50 &1001542156
 Rigidbody2D:
   serializedVersion: 4
