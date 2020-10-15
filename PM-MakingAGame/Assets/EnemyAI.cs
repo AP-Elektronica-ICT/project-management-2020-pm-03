@@ -7,7 +7,7 @@ using System;
 
 public class EnemyAI : MonoBehaviour
 {
-
+    // Variables
     public Transform target;
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
@@ -20,15 +20,17 @@ public class EnemyAI : MonoBehaviour
     private Seeker seeker;
     private Rigidbody2D rb;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // Search for the desired components
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
+        // Repeatfunction for updated pathfinding
         InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
 
+    // Pathfinding
     private void UpdatePath()
     {
         if(seeker.IsDone())
@@ -47,9 +49,9 @@ public class EnemyAI : MonoBehaviour
 
 
 
-    // Update is called once per frame
     void FixedUpdate()
     {
+        // Follow path
         if (path == null)
         {
             return;
@@ -76,6 +78,7 @@ public class EnemyAI : MonoBehaviour
             currentWaypoint++;
         }
 
+        // Face the right direction
         if (force.x >= 0.01f)
         {
             enemyGFX.localScale = new Vector3(1f, 1f, 1f);
