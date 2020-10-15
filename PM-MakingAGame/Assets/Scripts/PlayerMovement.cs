@@ -23,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         movement.x = Input.GetAxisRaw("Horizontal");
 
+        // Normaliseren van vector zodat de snelheid constant blijft
+        movement.Normalize();
+
         Animation.SetFloat("Vertical", movement.y);
         Animation.SetFloat("Horizontal", movement.x);
         Animation.SetFloat("Speed", movement.sqrMagnitude);
