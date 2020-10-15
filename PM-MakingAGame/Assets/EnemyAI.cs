@@ -12,6 +12,8 @@ public class EnemyAI : MonoBehaviour
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
 
+    public Transform enemyGFX;
+
     private Path path;
     private int currentWaypoint = 0;
     private bool reachedEndOfPath = false;
@@ -72,6 +74,15 @@ public class EnemyAI : MonoBehaviour
         if (distance < nextWaypointDistance)
         {
             currentWaypoint++;
+        }
+
+        if (force.x >= 0.01f)
+        {
+            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (force.x <= 0.01f)
+        {
+            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
         }
     }
 }
