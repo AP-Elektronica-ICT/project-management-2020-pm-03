@@ -13,7 +13,7 @@ public class EnemyAI : MonoBehaviour
     public float nextWaypointDistance = 3f;
 
     public Transform enemyGFX;
-
+    public Vector2 force;
     public Animator animator;
 
     private Path path;
@@ -70,7 +70,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed * Time.deltaTime;
+        force = direction * speed * Time.deltaTime;
 
         rb.AddForce(force);
 
@@ -80,7 +80,10 @@ public class EnemyAI : MonoBehaviour
         {
             currentWaypoint++;
         }
-
+    }
+    
+    void Update()
+    {
         // Face the right direction (animation)
         if (force.x >= 0.01f)
         {
