@@ -2426,7 +2426,8 @@ MonoBehaviour:
   speed: 400
   nextWaypointDistance: 3
   enemyGFX: {fileID: 1629291787}
-  animator: {fileID: 1629291788}
+  force: {x: 0, y: 0}
+  animator: {fileID: 1629291790}
 --- !u!58 &962461587
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2623,6 +2624,7 @@ MonoBehaviour:
     m_Bits: 256
   AttackRange: 1.5
   AttackDamage: 35
+  AttackRate: 2
 --- !u!1 &1007630339
 GameObject:
   m_ObjectHideFlags: 0
@@ -9609,6 +9611,7 @@ GameObject:
   - component: {fileID: 1629291786}
   - component: {fileID: 1629291788}
   - component: {fileID: 1629291789}
+  - component: {fileID: 1629291790}
   m_Layer: 8
   m_Name: GoblinGFX
   m_TagString: Untagged
@@ -9719,3 +9722,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4230a8ec914564aae2ce68165c724b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1629291790}
+  MaxHealth: 100
+--- !u!95 &1629291790
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291785}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ec740e78fcb59146908fd25e169caef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
