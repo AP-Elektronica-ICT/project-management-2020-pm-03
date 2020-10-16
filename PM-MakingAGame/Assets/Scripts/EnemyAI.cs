@@ -88,11 +88,13 @@ public class EnemyAI : MonoBehaviour
         if (force.x >= 0.01f)
         {
             animator.SetFloat("Horizontal", 1);
+            animator.SetFloat("LastMove", 1);
+
         }
         else if (force.x < 0.01f)
         {
             animator.SetFloat("Horizontal", -1);
+            animator.SetFloat("LastMove", -1);
         }
-        animator.SetFloat("Speed", force.x);
     }
 }

@@ -34,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") == 1)
         {
             Animation.SetFloat("LastMove", 1);
-            
             attackPoint.localPosition = new Vector3(1, 0);
         }
             

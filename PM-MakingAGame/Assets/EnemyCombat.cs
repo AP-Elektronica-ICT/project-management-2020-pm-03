@@ -33,9 +33,10 @@ public class EnemyCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
-
         }
     }
+
+
     void Attack()
     {
         animator.SetTrigger("Attack");
