@@ -23,13 +23,12 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         animator.SetTrigger("Attack");
-        Debug.Log("attack");
 
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
         foreach (var enemy in HitEnemies)
         {
-            Debug.Log("We hit " + enemy);
+            enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
         }
     }
 
