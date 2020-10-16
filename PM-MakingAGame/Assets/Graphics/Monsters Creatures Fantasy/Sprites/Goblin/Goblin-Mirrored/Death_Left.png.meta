@@ -1,24 +1,24 @@
 fileFormatVersion: 2
-guid: cbd77a78256671c4c9cf1492e8ce39b1
+guid: 39aec05646cd36945adb5fc5c796c186
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6991849013916550155
-    second: Death_0
+      213: -2006666255292648956
+    second: Death_Left_0
   - first:
-      213: -276728812324164698
-    second: Death_1
+      213: 170431861220012606
+    second: Death_Left_1
   - first:
-      213: 3156895337291164288
-    second: Death_2
+      213: 5110904520163500286
+    second: Death_Left_2
   - first:
-      213: 1400002288684528572
-    second: Death_3
+      213: 5388427557729818302
+    second: Death_Left_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -69,7 +69,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -96,30 +96,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Lumin
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death_0
+      name: Death_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69255047dccfbdc40bdba1669e717029
-      internalID: 6991849013916550155
+      spriteID: 402b48e2ca3e624e0800000000000000
+      internalID: -2006666255292648956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_1
+      name: Death_Left_1
       rect:
         serializedVersion: 2
         x: 150
@@ -170,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db3f1ca9aad42a74d9c3a82b7cf58a83
-      internalID: -276728812324164698
+      spriteID: e327d62ffde7d5200800000000000000
+      internalID: 170431861220012606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_2
+      name: Death_Left_2
       rect:
         serializedVersion: 2
         x: 300
@@ -191,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2a79384f474f445be2af7ec955c302
-      internalID: 3156895337291164288
+      spriteID: ef0a84515949de640800000000000000
+      internalID: 5110904520163500286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_3
+      name: Death_Left_3
       rect:
         serializedVersion: 2
         x: 450
@@ -212,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a7f9c1049813e49b34008f09e09c9f
-      internalID: 1400002288684528572
+      spriteID: eb6596c805a87ca40800000000000000
+      internalID: 5388427557729818302
       vertices: []
       indices: 
       edges: []
