@@ -9385,6 +9385,7 @@ GameObject:
   - component: {fileID: 1629291787}
   - component: {fileID: 1629291786}
   - component: {fileID: 1629291788}
+  - component: {fileID: 1629291789}
   m_Layer: 8
   m_Name: Enemy_Goblin
   m_TagString: Untagged
@@ -9470,7 +9471,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.032566547, y: -0.3908987}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9481,5 +9482,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.375, y: 9.375}
+  m_Size: {x: 2.405662, y: 2.338873}
   m_EdgeRadius: 0
+--- !u!114 &1629291789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629291785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4230a8ec914564aae2ce68165c724b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
