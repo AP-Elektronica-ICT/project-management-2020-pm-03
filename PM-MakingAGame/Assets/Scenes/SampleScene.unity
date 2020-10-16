@@ -2474,7 +2474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a8d0c9ad63cc144a95d04aba38c154b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 5
+  MovementSpeed: 8
   RigidBody: {fileID: 1001542156}
   Animation: {fileID: 1001542159}
   attackPoint: {fileID: 1444340875}
