@@ -9760,6 +9760,7 @@ MonoBehaviour:
     m_Bits: 0
   AttackRange: 0.8
   AttackDamage: 10
+  movement: {fileID: 962461586}
   AttackRate: 2
   MaxHealth: 100
 --- !u!95 &1629291790

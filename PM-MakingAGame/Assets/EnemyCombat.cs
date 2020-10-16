@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class EnemyCombat : MonoBehaviour
@@ -11,6 +12,8 @@ public class EnemyCombat : MonoBehaviour
 
     public float AttackRange = 1.5f;
     public int AttackDamage = 35;
+
+    public EnemyAI movement;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
@@ -71,6 +74,7 @@ public class EnemyCombat : MonoBehaviour
 
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        this.movement.enabled = false;
 
     }
 }
