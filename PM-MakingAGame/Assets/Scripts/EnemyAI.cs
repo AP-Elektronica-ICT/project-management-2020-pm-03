@@ -14,11 +14,14 @@ public class EnemyAI : MonoBehaviour
 
     public Transform enemyGFX;
 
+    public Animator animator;
+
     private Path path;
     private int currentWaypoint = 0;
     private bool reachedEndOfPath = false;
     private Seeker seeker;
     private Rigidbody2D rb;
+
 
     void Start()
     {
@@ -78,14 +81,15 @@ public class EnemyAI : MonoBehaviour
             currentWaypoint++;
         }
 
-        // Face the right direction
+        // Face the right direction (animation)
         if (force.x >= 0.01f)
         {
-            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
+            animator.SetFloat("Horizontal", 1);
         }
-        else if (force.x <= 0.01f)
+        else if (force.x < 0.01f)
         {
-            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
+            animator.SetFloat("Horizontal", -1);
         }
+        animator.SetFloat("Speed", force.x);
     }
 }
