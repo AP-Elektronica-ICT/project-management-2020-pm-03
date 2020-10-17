@@ -6,6 +6,9 @@ public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
 
+    public int MaxHealth = 100;
+    private int currentHealth;
+
     public Transform attackPoint;
     public LayerMask EnemyLayers;
 
@@ -48,6 +51,24 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
+    }
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        //animator.SetTrigger("Hurt");
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Debug.Log("U died!");
+        //animator.SetBool("IsDead", true);
+
+        //GetComponent<Collider2D>().enabled = false;
+        //this.enabled = false;
+
     }
 
 }

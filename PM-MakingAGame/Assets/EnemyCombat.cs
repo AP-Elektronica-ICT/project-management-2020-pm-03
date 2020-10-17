@@ -6,6 +6,8 @@ using UnityEngine;
 public class EnemyCombat : MonoBehaviour
 
 {
+    Transform Player;
+    Rigidbody2D rb;
     public Animator animator;
     public Transform attackPoint;
     public LayerMask EnemyLayers;
@@ -15,25 +17,24 @@ public class EnemyCombat : MonoBehaviour
 
     public EnemyAI movement;
 
-    public float AttackRate = 2f;
-    private float nextAttackTime = 0f;
+
     public int MaxHealth = 100;
     private int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = MaxHealth;
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = animator.GetComponent<Rigidbody2D>();
     }
     void Update()
     {
-        if (Time.time >= nextAttackTime)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
+       
+            if (Vector2.Distance(Player.position,rb.position)<= AttackRange)
             {
                 Attack();
-                nextAttackTime = Time.time + 1f / AttackRate;
             }
-        }
+        
     }
 
 
@@ -45,8 +46,8 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (var player in HitPlayer)
         {
-            Debug.Log("You hit " + player.name);
-            player.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
+            Debug.Log("U got hit ");
+            player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
         }
     }
     void OnDrawGizmosSelected()
