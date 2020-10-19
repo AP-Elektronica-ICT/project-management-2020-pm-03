@@ -9592,9 +9592,9 @@ GameObject:
   - component: {fileID: 1629291787}
   - component: {fileID: 1629291786}
   - component: {fileID: 1629291788}
-  - component: {fileID: 1629291789}
   - component: {fileID: 1629291790}
   - component: {fileID: 1629291791}
+  - component: {fileID: 1629291789}
   m_Layer: 8
   m_Name: GoblinGFX
   m_TagString: Untagged
@@ -9703,19 +9703,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1629291785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4230a8ec914564aae2ce68165c724b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e9a4f10e806e084fa4e41a35a5f1796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1629291790}
-  attackPoint: {fileID: 1275633089}
-  EnemyLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  AttackRange: 0.8
-  AttackDamage: 10
-  movement: {fileID: 962461586}
-  AttackRate: 2
-  MaxHealth: 100
+  player: {fileID: 1001542158}
+  isFlipped: 0
 --- !u!95 &1629291790
 Animator:
   serializedVersion: 3
