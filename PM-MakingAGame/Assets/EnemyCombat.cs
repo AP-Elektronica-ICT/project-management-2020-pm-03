@@ -84,6 +84,7 @@ public class EnemyCombat : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
         this.movement.enabled = false;
+        movement.rb.simulated = false;
 
     }
 }

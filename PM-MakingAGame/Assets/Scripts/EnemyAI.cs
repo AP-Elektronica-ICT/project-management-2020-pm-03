@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
     private int currentWaypoint = 0;
     private bool reachedEndOfPath = false;
     private Seeker seeker;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     public Transform attackPoint;
 
