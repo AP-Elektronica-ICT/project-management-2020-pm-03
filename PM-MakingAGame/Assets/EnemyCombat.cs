@@ -15,6 +15,9 @@ public class EnemyCombat : MonoBehaviour
     public float AttackRange = 1.5f;
     public int AttackDamage = 35;
 
+    public float AttackRate = 2f;
+    private float nextAttackTime = 0f;
+
     public EnemyAI movement;
 
 
@@ -32,7 +35,11 @@ public class EnemyCombat : MonoBehaviour
        
             if (Vector2.Distance(Player.position,rb.position)<= AttackRange)
             {
+            if (Time.time>nextAttackTime)
+            {
                 Attack();
+                nextAttackTime = Time.time + AttackRate;
+            }
             }
         
     }

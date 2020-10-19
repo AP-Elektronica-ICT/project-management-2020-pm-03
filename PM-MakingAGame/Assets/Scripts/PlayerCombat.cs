@@ -18,6 +18,11 @@ public class PlayerCombat : MonoBehaviour
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
 
+    void Start()
+    {
+        currentHealth = MaxHealth;
+    }
+
     // Update is called once per frame
     void Update()
     {
