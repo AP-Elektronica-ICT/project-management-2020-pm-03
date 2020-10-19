@@ -2428,6 +2428,7 @@ MonoBehaviour:
   enemyGFX: {fileID: 1629291787}
   force: {x: 0, y: 0}
   animator: {fileID: 1629291790}
+  attackPoint: {fileID: 1275633089}
 --- !u!58 &962461587
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2619,6 +2620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1001542159}
+  movement: {fileID: 0}
   MaxHealth: 100
   attackPoint: {fileID: 1444340875}
   EnemyLayers:
@@ -9778,9 +9780,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   AttackRange: 1.5
-  AttackDamage: 10
+  AttackDamage: 50
+  AttackRate: 1
   movement: {fileID: 962461586}
-  AttackRate: 10
   MaxHealth: 100
 --- !u!95 &1629291790
 Animator:

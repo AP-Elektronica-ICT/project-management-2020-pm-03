@@ -22,6 +22,8 @@ public class EnemyAI : MonoBehaviour
     private Seeker seeker;
     private Rigidbody2D rb;
 
+    public Transform attackPoint;
+
 
     void Start()
     {
@@ -89,12 +91,14 @@ public class EnemyAI : MonoBehaviour
         {
             animator.SetFloat("Horizontal", 1);
             animator.SetFloat("LastMove", 1);
+            attackPoint.localPosition = new Vector3(1, 0);
 
         }
         else if (force.x < 0.01f)
         {
             animator.SetFloat("Horizontal", -1);
             animator.SetFloat("LastMove", -1);
+            attackPoint.localPosition = new Vector3(-1, 0);
         }
     }
 }

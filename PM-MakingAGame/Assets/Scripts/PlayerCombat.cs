@@ -6,6 +6,8 @@ public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
 
+    public PlayerMovement movement;
+
     public int MaxHealth = 100;
     private int currentHealth;
 
@@ -60,7 +62,7 @@ public class PlayerCombat : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        //animator.SetTrigger("Hurt");
+        animator.SetTrigger("Hurt");
         if (currentHealth <= 0)
         {
             Die();
@@ -69,10 +71,11 @@ public class PlayerCombat : MonoBehaviour
     void Die()
     {
         Debug.Log("U died!");
-        //animator.SetBool("IsDead", true);
+        animator.SetBool("IsDead", true);
 
-        //GetComponent<Collider2D>().enabled = false;
-        //this.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+        this.movement.enabled = false;
 
     }
 
