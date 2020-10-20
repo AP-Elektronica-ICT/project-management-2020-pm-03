@@ -6,31 +6,48 @@ public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
 
+    public PlayerMovement movement;
+
+    public int MaxHealth = 100;
+    private int currentHealth;
+
     public Transform attackPoint;
     public LayerMask EnemyLayers;
 
     public float AttackRange = 1.5f;
     public int AttackDamage = 35;
 
+    public float AttackRate = 2f;
+    private float nextAttackTime = 0f;
+
+    void Start()
+    {
+        currentHealth = MaxHealth;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Time.time>=nextAttackTime)
         {
-            Attack();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / AttackRate;
+            }
+           
         }
     }
     void Attack()
     {
         animator.SetTrigger("Attack");
-        Debug.Log("attack");
 
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
         foreach (var enemy in HitEnemies)
         {
-            Debug.Log("We hit" + enemy.name);
-            //enemy.GetComponent<Enemy>().TakeDamage(AttackDamage);
+            Debug.Log("You hit " + enemy.name);
+            enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
         }
     }
 
@@ -41,6 +58,25 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
+    }
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        animator.SetTrigger("Hurt");
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Debug.Log("U died!");
+        animator.SetBool("IsDead", true);
+
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+        this.movement.enabled = false;
+
     }
 
 }
