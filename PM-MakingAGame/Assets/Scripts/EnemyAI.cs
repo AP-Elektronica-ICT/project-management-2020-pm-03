@@ -82,22 +82,14 @@ public class EnemyAI : MonoBehaviour
         {
             currentWaypoint++;
         }
-    }
-    
-    void Update()
-    {
-        // Face the right direction (animation)
-        if (force.x >= 0.01f)
+        if (rb.velocity.x >= 0.01f)
         {
-            animator.SetFloat("Horizontal", 1);
-            animator.SetFloat("LastMove", 1);
+            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
             attackPoint.localPosition = new Vector3(1, 0);
-
         }
-        else if (force.x < 0.01f)
+        if (rb.velocity.x <= 0.01f)
         {
-            animator.SetFloat("Horizontal", -1);
-            animator.SetFloat("LastMove", -1);
+            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
             attackPoint.localPosition = new Vector3(-1, 0);
         }
     }
