@@ -2402,7 +2402,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3475523c7768f5479073c503f4fe95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Target: {fileID: 1001542158}
+  rb: {fileID: 962461584}
+  DetectionRange: 3
+  EnemyAI: {fileID: 962461586}
+  Speed: 2
   StartWaitTime: 0
   moveSpots:
   - {fileID: 1795051484}

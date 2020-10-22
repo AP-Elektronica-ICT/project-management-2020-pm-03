@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Patrol : MonoBehaviour
 {
+    public Transform Target;
+    public Rigidbody2D rb;
+    public float DetectionRange;
+    public EnemyAI EnemyAI;
     public float Speed;
     private float waittime;
     public float StartWaitTime;
@@ -31,6 +35,11 @@ public class Patrol : MonoBehaviour
                 waittime -= Time.deltaTime;
             }
 
+        }
+        if (Vector2.Distance(Target.position, rb.position) <= DetectionRange)
+        {
+            this.enabled = false;
+            EnemyAI.enabled = true;
         }
     }
 }
