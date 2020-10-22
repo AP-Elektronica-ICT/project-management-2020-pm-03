@@ -9,6 +9,8 @@ public class EnemyAI : MonoBehaviour
 {
     // Variables
     public Transform target;
+    public Patrol Patrol;
+
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
 
@@ -91,6 +93,11 @@ public class EnemyAI : MonoBehaviour
         {
             enemyGFX.localScale = new Vector3(1f, 1f, 1f);
             attackPoint.localPosition = new Vector3(-1, 0);
+        }
+        if (Vector2.Distance(target.position, rb.position) >= Patrol.DetectionRange)
+        {
+            this.enabled = false;
+            Patrol.enabled = true;
         }
     }
 }

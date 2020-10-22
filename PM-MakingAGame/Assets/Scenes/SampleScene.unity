@@ -2353,7 +2353,7 @@ MonoBehaviour:
   enemyGFX: {fileID: 1629291787}
   force: {x: 0, y: 0}
   animator: {fileID: 1629291790}
-  rb: {fileID: 0}
+  rb: {fileID: 962461584}
   attackPoint: {fileID: 1275633089}
 --- !u!58 &962461587
 CircleCollider2D:
@@ -2404,6 +2404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1001542158}
   rb: {fileID: 962461584}
+  EnemyGFX: {fileID: 1629291787}
   DetectionRange: 3
   EnemyAI: {fileID: 962461586}
   Speed: 2

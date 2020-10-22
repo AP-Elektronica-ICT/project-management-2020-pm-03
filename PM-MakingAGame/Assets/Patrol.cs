@@ -6,6 +6,7 @@ public class Patrol : MonoBehaviour
 {
     public Transform Target;
     public Rigidbody2D rb;
+    public Transform EnemyGFX;
     public float DetectionRange;
     public EnemyAI EnemyAI;
     public float Speed;
@@ -29,6 +30,7 @@ public class Patrol : MonoBehaviour
             {
                 randomSpot = Random.Range(0, moveSpots.Length);
                 waittime = StartWaitTime;
+
             }
             else
             {
