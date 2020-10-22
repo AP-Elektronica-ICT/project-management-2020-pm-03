@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -68,6 +71,7 @@ public class PlayerCombat : MonoBehaviour
             Die();
         }
     }
+    public bool YouDied = false;
     void Die()
     {
         Debug.Log("U died!");
@@ -75,8 +79,15 @@ public class PlayerCombat : MonoBehaviour
 
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-        this.movement.enabled = false;
+        this.movement.enabled= false;
+        YouDied = true;
+        if (YouDied)
+	{
+        SceneManager.LoadScene("Death Screen");
+	}
+        
 
     }
+    
 
 }

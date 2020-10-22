@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyCombat : MonoBehaviour
 
@@ -23,6 +24,10 @@ public class EnemyCombat : MonoBehaviour
 
     public int MaxHealth = 100;
     private int currentHealth;
+
+    
+  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -74,6 +79,7 @@ public class EnemyCombat : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            
         }
     }
     void Die()
@@ -85,6 +91,8 @@ public class EnemyCombat : MonoBehaviour
         this.enabled = false;
         this.movement.enabled = false;
         movement.rb.simulated = false;
+        
 
     }
+    
 }
