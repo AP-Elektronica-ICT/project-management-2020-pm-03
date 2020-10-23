@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -20,9 +21,14 @@ public class PlayerCombat : MonoBehaviour
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
 
+    public HealthBar healthbar;
+
+    
+
     void Start()
     {
         currentHealth = MaxHealth;
+        healthbar.SetMaxHealth(MaxHealth);
     }
 
     // Update is called once per frame
@@ -63,6 +69,7 @@ public class PlayerCombat : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
         {
             Die();
@@ -78,5 +85,7 @@ public class PlayerCombat : MonoBehaviour
         this.movement.enabled = false;
 
     }
+
+    
 
 }
