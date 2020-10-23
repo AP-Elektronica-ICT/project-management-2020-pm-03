@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyCombat : MonoBehaviour
 
@@ -13,15 +14,14 @@ public class EnemyCombat : MonoBehaviour
     public LayerMask EnemyLayers;
 
     public float AttackRange = 1.5f;
-    public int AttackDamage = 35;
+    public int AttackDamage = 15;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
 
     public EnemyAI movement;
-
-
-    public int MaxHealth = 100;
+    
+    public int MaxHealth = 50;
     private int currentHealth;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class EnemyCombat : MonoBehaviour
     }
     void Update()
     {
-       
+
             if (Vector2.Distance(Player.position,rb.position)<= AttackRange)
             {
             if (Time.time>nextAttackTime)
@@ -87,4 +87,8 @@ public class EnemyCombat : MonoBehaviour
         movement.rb.simulated = false;
 
     }
+ 
+    
+
+    
 }
