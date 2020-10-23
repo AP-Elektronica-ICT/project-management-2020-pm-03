@@ -86,12 +86,14 @@ public class EnemyAI : MonoBehaviour
         }
         if (rb.velocity.x >= 0.01f)
         {
-            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
-            attackPoint.localPosition = new Vector3(-1, 0);
+            animator.SetFloat("Horizontal", 1);
+            //enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
+            attackPoint.localPosition = new Vector3(1, 0);
         }
         if (rb.velocity.x <= 0.01f)
         {
-            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
+            animator.SetFloat("Horizontal", -1);
+            //enemyGFX.localScale = new Vector3(1f, 1f, 1f);
             attackPoint.localPosition = new Vector3(-1, 0);
         }
         if (Vector2.Distance(target.position, rb.position) >= Patrol.DetectionRange)
