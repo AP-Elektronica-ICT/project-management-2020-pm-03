@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-
+    public Canvas DrawCanvas;
     public Slider healthslider;
     public Gradient gradient;
     public Image fill;
@@ -24,5 +24,9 @@ public class HealthBar : MonoBehaviour
         healthslider.maxValue = hp;
         healthslider.value = hp;
         fill.color = gradient.Evaluate(1f);
+    }
+    public void Death()
+    {
+        this.DrawCanvas.enabled = false;
     }
 }
