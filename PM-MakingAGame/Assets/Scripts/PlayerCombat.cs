@@ -71,23 +71,21 @@ public class PlayerCombat : MonoBehaviour
             Die();
         }
     }
-    public bool YouDied = false;
+
     void Die()
     {
         Debug.Log("U died!");
         animator.SetBool("IsDead", true);
 
+        Invoke("StartDeathScreen", 1.5f);
+
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
         this.movement.enabled= false;
-        YouDied = true;
-        if (YouDied)
-	{
-        SceneManager.LoadScene("Death Screen");
-	}
-        
-
     }
-    
 
+    private void StartDeathScreen()
+    {
+        SceneManager.LoadScene("Death Screen");
+    }
 }
