@@ -13,7 +13,7 @@ public class EnemyCombat : MonoBehaviour
     public LayerMask EnemyLayers;
 
     public float AttackRange = 1.5f;
-    public int AttackDamage = 35;
+    public int AttackDamage = 10;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
