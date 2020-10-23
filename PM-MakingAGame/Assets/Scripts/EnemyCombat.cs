@@ -21,6 +21,7 @@ public class EnemyCombat : MonoBehaviour
 
     public EnemyAI movement;
 
+    public HealthBar healthbar;
 
     public int MaxHealth = 100;
     private int currentHealth;
@@ -34,6 +35,7 @@ public class EnemyCombat : MonoBehaviour
         currentHealth = MaxHealth;
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
+        healthbar.SetMaxHealth(MaxHealth);
     }
     void Update()
     {
@@ -76,6 +78,7 @@ public class EnemyCombat : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
         {
             Die();
@@ -86,7 +89,7 @@ public class EnemyCombat : MonoBehaviour
     {
         Debug.Log("Enemy died!");
         animator.SetBool("IsDead", true);
-
+        this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
         this.movement.enabled = false;
