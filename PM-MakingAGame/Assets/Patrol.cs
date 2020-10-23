@@ -18,6 +18,7 @@ public class Patrol : MonoBehaviour
     void Start()
     {
         randomSpot = Random.Range(0, moveSpots.Length);
+        EnemyAI.animator.SetFloat("Horizontal", 1);
     }
 
     // Update is called once per frame
@@ -28,8 +29,17 @@ public class Patrol : MonoBehaviour
         {
             if (waittime <= 0)
             {
+                int prevSpot = randomSpot;
                 randomSpot = Random.Range(0, moveSpots.Length);
                 waittime = StartWaitTime;
+                if (randomSpot > prevSpot)
+                {
+                    EnemyAI.animator.SetFloat("Horizontal", 1);
+                }
+                else
+                {
+                    EnemyAI.animator.SetFloat("Horizontal", -1);
+                }
 
             }
             else
@@ -43,5 +53,6 @@ public class Patrol : MonoBehaviour
             this.enabled = false;
             EnemyAI.enabled = true;
         }
+        
     }
 }
