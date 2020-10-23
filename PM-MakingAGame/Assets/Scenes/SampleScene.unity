@@ -459,7 +459,6 @@ GameObject:
   - component: {fileID: 270772888}
   - component: {fileID: 270772887}
   - component: {fileID: 270772891}
-  - component: {fileID: 270772892}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -561,28 +560,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 159354281}
---- !u!114 &270772892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270772886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4230a8ec914564aae2ce68165c724b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  attackPoint: {fileID: 0}
-  EnemyLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  AttackRange: 1.5
-  AttackDamage: 35
-  AttackRate: 2
-  movement: {fileID: 0}
-  MaxHealth: 100
 --- !u!1 &330125773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,7 +1543,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 270772892}
+      - m_Target: {fileID: 0}
         m_MethodName: Easy
         m_Mode: 1
         m_Arguments:
@@ -3304,7 +3281,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 270772892}
+      - m_Target: {fileID: 0}
         m_MethodName: Hard
         m_Mode: 1
         m_Arguments:
@@ -12419,7 +12396,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 270772892}
+      - m_Target: {fileID: 0}
         m_MethodName: Normal
         m_Mode: 1
         m_Arguments:
