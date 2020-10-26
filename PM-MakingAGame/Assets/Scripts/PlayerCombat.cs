@@ -1,6 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -20,9 +24,14 @@ public class PlayerCombat : MonoBehaviour
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
 
+    public HealthBar healthbar;
+
+    
+
     void Start()
     {
         currentHealth = MaxHealth;
+        healthbar.SetMaxHealth(MaxHealth);
     }
 
     // Update is called once per frame
@@ -63,20 +72,27 @@ public class PlayerCombat : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
         {
             Die();
         }
     }
+
     void Die()
     {
         Debug.Log("U died!");
         animator.SetBool("IsDead", true);
 
+        Invoke("StartDeathScreen", 1.5f);
+
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-        this.movement.enabled = false;
-
+        this.movement.enabled= false;
     }
 
+    private void StartDeathScreen()
+    {
+        SceneManager.LoadScene("Death Screen");
+    }
 }
