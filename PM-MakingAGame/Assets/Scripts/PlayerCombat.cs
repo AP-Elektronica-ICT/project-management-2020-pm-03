@@ -44,9 +44,9 @@ public class PlayerCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
-           
         }
     }
+
     void Attack()
     {
         animator.SetTrigger("Attack");
@@ -55,7 +55,7 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (var enemy in HitEnemies)
         {
-            Debug.Log("You hit " + enemy.name);
+            //Debug.Log("You hit " + enemy.name);
             enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
         }
     }
@@ -68,6 +68,7 @@ public class PlayerCombat : MonoBehaviour
         }
         Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
     }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -81,7 +82,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("U died!");
+        //Debug.Log("U died!");
         animator.SetBool("IsDead", true);
 
         Invoke("StartDeathScreen", 1.5f);
