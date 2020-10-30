@@ -27,8 +27,6 @@ public class EnemyCombat : MonoBehaviour
     private int currentHealth;
 
     
-  
-
     // Start is called before the first frame update
     void Start()
     {
@@ -37,20 +35,18 @@ public class EnemyCombat : MonoBehaviour
         rb = animator.GetComponent<Rigidbody2D>();
         healthbar.SetMaxHealth(MaxHealth);
     }
+
     void Update()
-    {
-       
-            if (Vector2.Distance(Player.position,rb.position)<= AttackRange)
-            {
+    {   
+        if (Vector2.Distance(Player.position,rb.position)<= AttackRange)
+        {   
             if (Time.time>nextAttackTime)
             {
                 Attack();
                 nextAttackTime = Time.time + AttackRate;
             }
-            }
-        
+        }   
     }
-
 
     void Attack()
     {
@@ -64,6 +60,7 @@ public class EnemyCombat : MonoBehaviour
             player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
         }
     }
+
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
@@ -81,10 +78,10 @@ public class EnemyCombat : MonoBehaviour
         healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
         {
-            Die();
-            
+            Die();  
         }
     }
+
     void Die()
     {
         //Debug.Log("Enemy died!");
@@ -94,8 +91,6 @@ public class EnemyCombat : MonoBehaviour
         this.enabled = false;
         this.movement.enabled = false;
         movement.rb.simulated = false;
-        
-
     }
     
 }

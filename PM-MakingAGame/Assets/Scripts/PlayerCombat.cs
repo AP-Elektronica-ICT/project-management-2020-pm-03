@@ -44,9 +44,9 @@ public class PlayerCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
-           
         }
     }
+
     void Attack()
     {
         animator.SetTrigger("Attack");
@@ -68,6 +68,7 @@ public class PlayerCombat : MonoBehaviour
         }
         Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
     }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
