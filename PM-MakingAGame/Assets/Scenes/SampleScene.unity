@@ -4318,6 +4318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1001542159}
   movement: {fileID: 1001542155}
+  df: {fileID: 0}
   MaxHealth: 100
   attackPoint: {fileID: 1444340875}
   EnemyLayers:

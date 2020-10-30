@@ -706,6 +706,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418824982}
+  - component: {fileID: 418824983}
+  - component: {fileID: 418824984}
   m_Layer: 5
   m_Name: OptionsMenu
   m_TagString: Untagged
@@ -740,6 +742,30 @@ RectTransform:
   m_AnchoredPosition: {x: 15.5, y: 40.2}
   m_SizeDelta: {x: -520.614, y: -177.1742}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &418824983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418824981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9666b45182b360c41b2a19a3b302cd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &418824984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418824981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25b9074875eda34eb71df64e100f08b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &488309053
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,8 +942,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Normal
+      - m_Target: {fileID: 418824984}
+        m_MethodName: NormalMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1550,8 +1576,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Hard
+      - m_Target: {fileID: 418824984}
+        m_MethodName: HardMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1849,8 +1875,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Easy
+      - m_Target: {fileID: 418824984}
+        m_MethodName: EasyMode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
