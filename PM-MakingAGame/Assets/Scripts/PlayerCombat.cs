@@ -55,7 +55,7 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (var enemy in HitEnemies)
         {
-            Debug.Log("You hit " + enemy.name);
+            //Debug.Log("You hit " + enemy.name);
             enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
         }
     }
@@ -81,7 +81,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("U died!");
+        //Debug.Log("U died!");
         animator.SetBool("IsDead", true);
 
         Invoke("StartDeathScreen", 1.5f);

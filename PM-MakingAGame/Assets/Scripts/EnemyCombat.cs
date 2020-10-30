@@ -60,7 +60,7 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (var player in HitPlayer)
         {
-            Debug.Log("U got hit ");
+            //Debug.Log("U got hit ");
             player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
         }
     }
@@ -87,7 +87,7 @@ public class EnemyCombat : MonoBehaviour
     }
     void Die()
     {
-        Debug.Log("Enemy died!");
+        //Debug.Log("Enemy died!");
         animator.SetBool("IsDead", true);
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
