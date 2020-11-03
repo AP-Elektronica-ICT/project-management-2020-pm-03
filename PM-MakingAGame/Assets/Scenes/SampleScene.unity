@@ -3588,7 +3588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 1001542158}
   rb: {fileID: 655466923}
-  EnemyGFX: {fileID: 0}
+  EnemyGFX: {fileID: 1920106876}
   DetectionRange: 8
   EnemyAI: {fileID: 655466924}
   Speed: 2
@@ -3606,7 +3606,7 @@ Animator:
   m_GameObject: {fileID: 655466920}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d8ab230b64dec648ab56fd4008eb429, type: 2}
+  m_Controller: {fileID: 9100000, guid: ccf4435030d117d45989892bc70cd4be, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3652,7 +3652,7 @@ MonoBehaviour:
   Patrol: {fileID: 655466921}
   speed: 400
   nextWaypointDistance: 3
-  enemyGFX: {fileID: 0}
+  enemyGFX: {fileID: 1920106876}
   force: {x: 0, y: 0}
   animator: {fileID: 1920106878}
   rb: {fileID: 655466923}
@@ -12664,7 +12664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skeleton
+  m_Text: SmallSkeleton
 --- !u!222 &1209608828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13342,7 +13342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484073103}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -1.18, z: 0}
+  m_LocalPosition: {x: 1.45, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1920106876}
@@ -14572,7 +14572,7 @@ GameObject:
   - component: {fileID: 1920106878}
   - component: {fileID: 1920106877}
   m_Layer: 8
-  m_Name: SkeletonGFX
+  m_Name: SmallSkeletonGFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14586,7 +14586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920106875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.55, y: -0.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1484073104}
@@ -14613,7 +14613,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1920106878
 Animator:
   serializedVersion: 3
@@ -14624,7 +14624,7 @@ Animator:
   m_GameObject: {fileID: 1920106875}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d8ab230b64dec648ab56fd4008eb429, type: 2}
+  m_Controller: {fileID: 9100000, guid: ccf4435030d117d45989892bc70cd4be, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -14650,12 +14650,12 @@ MonoBehaviour:
   EnemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  AttackRange: 2
+  AttackRange: 3
   AttackDamage: 50
   AttackRate: 1
   movement: {fileID: 655466924}
   healthbar: {fileID: 1130556159}
-  MaxHealth: 100
+  MaxHealth: 140
 --- !u!61 &1920106880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14669,18 +14669,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.0413036, y: -0.94159555}
+  m_Offset: {x: 0.36690044, y: -0.44788313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8, y: 6}
+    oldSize: {x: 9.375, y: 9.375}
     newSize: {x: 1.5, y: 1.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8933372, y: 4.116809}
+  m_Size: {x: 3.190096, y: 4.294614}
   m_EdgeRadius: 0
 --- !u!212 &1920106881
 SpriteRenderer:
@@ -14721,7 +14721,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 1ff3bb5d141c2204ea7a71ac5fed23ad, type: 3}
+  m_Sprite: {fileID: 4035959289877228764, guid: c5b15ca3a0987ac46b73e4a04e12eeb2,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
