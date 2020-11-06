@@ -1,0 +1,1022 @@
+fileFormatVersion: 2
+guid: 5cd962339cc7300469f4d338cfd0f51a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3843475274527241313
+    second: LightBandit_MIRRORED_0
+  - first:
+      213: 1237034178009556344
+    second: LightBandit_MIRRORED_1
+  - first:
+      213: 3783613578085490388
+    second: LightBandit_MIRRORED_2
+  - first:
+      213: 108340277261515756
+    second: LightBandit_MIRRORED_3
+  - first:
+      213: -4180138047381700787
+    second: LightBandit_MIRRORED_4
+  - first:
+      213: -8283465608965587471
+    second: LightBandit_MIRRORED_5
+  - first:
+      213: -3593416264303337153
+    second: LightBandit_MIRRORED_6
+  - first:
+      213: 5656805837678646802
+    second: LightBandit_MIRRORED_7
+  - first:
+      213: -563164428737438971
+    second: LightBandit_MIRRORED_8
+  - first:
+      213: 1017611116284748575
+    second: LightBandit_MIRRORED_9
+  - first:
+      213: 4557641963866403207
+    second: LightBandit_MIRRORED_10
+  - first:
+      213: 5177632135804666309
+    second: LightBandit_MIRRORED_11
+  - first:
+      213: -6433616502429110099
+    second: LightBandit_MIRRORED_12
+  - first:
+      213: 6031585115653509083
+    second: LightBandit_MIRRORED_13
+  - first:
+      213: -9120131723443257131
+    second: LightBandit_MIRRORED_14
+  - first:
+      213: -8181976185239511608
+    second: LightBandit_MIRRORED_15
+  - first:
+      213: 1692789422937576839
+    second: LightBandit_MIRRORED_16
+  - first:
+      213: 6395000904954062987
+    second: LightBandit_MIRRORED_17
+  - first:
+      213: -8100121332151294642
+    second: LightBandit_MIRRORED_18
+  - first:
+      213: 2173325371668943254
+    second: LightBandit_MIRRORED_19
+  - first:
+      213: 5022654549676440966
+    second: LightBandit_MIRRORED_20
+  - first:
+      213: 5818159176711639563
+    second: LightBandit_MIRRORED_21
+  - first:
+      213: 8648913439105490378
+    second: LightBandit_MIRRORED_22
+  - first:
+      213: 8604212059190165052
+    second: LightBandit_MIRRORED_23
+  - first:
+      213: 1689426502998770362
+    second: LightBandit_MIRRORED_24
+  - first:
+      213: 5552378262123767
+    second: LightBandit_MIRRORED_25
+  - first:
+      213: -6795967546422328222
+    second: LightBandit_MIRRORED_26
+  - first:
+      213: 5597904654830176106
+    second: LightBandit_MIRRORED_27
+  - first:
+      213: -3639165370213383312
+    second: LightBandit_MIRRORED_28
+  - first:
+      213: 4613010787549721478
+    second: LightBandit_MIRRORED_29
+  - first:
+      213: 2971955431842273300
+    second: LightBandit_MIRRORED_30
+  - first:
+      213: -1727824823997661561
+    second: LightBandit_MIRRORED_31
+  - first:
+      213: 2217221249228939380
+    second: LightBandit_MIRRORED_32
+  - first:
+      213: 1142412896988492808
+    second: LightBandit_MIRRORED_33
+  - first:
+      213: 7389240776609237374
+    second: LightBandit_MIRRORED_34
+  - first:
+      213: 9072137673111748171
+    second: LightBandit_MIRRORED_35
+  - first:
+      213: 3474780810307506858
+    second: LightBandit_MIRRORED_36
+  - first:
+      213: 6736031611920057038
+    second: LightBandit_MIRRORED_37
+  - first:
+      213: 874934488609684532
+    second: LightBandit_MIRRORED_38
+  - first:
+      213: -4877617260749900768
+    second: LightBandit_MIRRORED_39
+  - first:
+      213: 4003780713164234255
+    second: LightBandit_MIRRORED_40
+  - first:
+      213: -3652335395896401887
+    second: LightBandit_MIRRORED_41
+  - first:
+      213: -9106900361273145316
+    second: LightBandit_MIRRORED_42
+  - first:
+      213: -4178614687598860084
+    second: LightBandit_MIRRORED_43
+  - first:
+      213: 5330915843483350765
+    second: LightBandit_MIRRORED_44
+  - first:
+      213: -2176567841160513587
+    second: LightBandit_MIRRORED_45
+  - first:
+      213: 5951710810016062927
+    second: LightBandit_MIRRORED_46
+  - first:
+      213: 5993411457522337258
+    second: LightBandit_MIRRORED_47
+  - first:
+      213: -3199759538411696867
+    second: LightBandit_MIRRORED_48
+  - first:
+      213: -1141439664905394630
+    second: LightBandit_MIRRORED_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16471390664c65530800000000000000
+      internalID: 3843475274527241313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e643e704da2110800000000000000
+      internalID: 1237034178009556344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de5129b088128430800000000000000
+      internalID: 3783613578085490388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3a0d78e6e08100800000000000000
+      internalID: 108340277261515756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_4
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ff7bdd79a2df5c0800000000000000
+      internalID: -4180138047381700787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf0749ae73b0d80800000000000000
+      internalID: -8283465608965587471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a61442fe912ec0800000000000000
+      internalID: -3593416264303337153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 208
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216113630f2018e40800000000000000
+      internalID: 5656805837678646802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b18f29fec3f28f0800000000000000
+      internalID: -563164428737438971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1324a13be74f1e00800000000000000
+      internalID: 1017611116284748575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781bbadf73fff3f30800000000000000
+      internalID: 4557641963866403207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1c848cef4aad740800000000000000
+      internalID: 5177632135804666309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da03f97b0e337b6a0800000000000000
+      internalID: -6433616502429110099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf8f0bb4be74b350800000000000000
+      internalID: 6031585115653509083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0c46f9488ce6180800000000000000
+      internalID: -9120131723443257131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdd71e6208c37e80800000000000000
+      internalID: -8181976185239511608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7859bb9e20ffd7710800000000000000
+      internalID: 1692789422937576839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88a61ed07b9fb850800000000000000
+      internalID: 6395000904954062987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45ee8f8096969f80800000000000000
+      internalID: -8100121332151294642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691dba729e3392e10800000000000000
+      internalID: 2173325371668943254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68db6f6a3bd04b540800000000000000
+      internalID: 5022654549676440966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02939ef1f04eb050800000000000000
+      internalID: 5818159176711639563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1cfee2fc170870800000000000000
+      internalID: 8648913439105490378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 112
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7920e74d486770800000000000000
+      internalID: 8604212059190165052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab24f59147c027710800000000000000
+      internalID: 1689426502998770362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4f8fdcbd9b31000800000000000000
+      internalID: 5552378262123767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_26
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2640a6ae58fdfa1a0800000000000000
+      internalID: -6795967546422328222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6788a5ef90cfad40800000000000000
+      internalID: 5597904654830176106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_28
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073478d70661f7dc0800000000000000
+      internalID: -3639165370213383312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_29
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68332f8ded4b40040800000000000000
+      internalID: 4613010787549721478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_30
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418504b18b18e3920800000000000000
+      internalID: 2971955431842273300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_31
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e748b1a788508e0800000000000000
+      internalID: -1727824823997661561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_32
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 16
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4702db49af625ce10800000000000000
+      internalID: 2217221249228939380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 16
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804f2df1a7aaadf00800000000000000
+      internalID: 1142412896988492808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 16
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7900a1265bdb8660800000000000000
+      internalID: 7389240776609237374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_MIRRORED_35
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 16
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb34fb525b6ed70800000000000000
+      internalID: 9072137673111748171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
