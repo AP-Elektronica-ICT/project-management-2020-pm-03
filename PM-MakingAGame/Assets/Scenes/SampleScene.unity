@@ -214,12 +214,12 @@ MonoBehaviour:
   EnemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  AttackRange: 3
+  AttackRange: 1.5
   AttackDamage: 50
   AttackRate: 1
   movement: {fileID: 1468516136}
   healthbar: {fileID: 2070930257}
-  MaxHealth: 140
+  MaxHealth: 35
 --- !u!61 &40625414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -230,10 +230,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.36690044, y: -0.44788313}
+  m_Offset: {x: 0.2173109, y: -0.14863443}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -244,7 +244,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.190096, y: 4.294614}
+  m_Size: {x: 2.8909168, y: 2.299632}
   m_EdgeRadius: 0
 --- !u!212 &40625415
 SpriteRenderer:
@@ -13181,7 +13181,7 @@ GameObject:
   m_Layer: 0
   m_Name: SkeletonMoveSpot2
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -13644,6 +13644,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334747484}
   m_CullTransparentMesh: 0
+--- !u!1 &1348459662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348459663}
+  m_Layer: 0
+  m_Name: FlyingEyeMoveSpot1
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348459663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348459662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.73, y: -17.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538545175}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400487254
 GameObject:
   m_ObjectHideFlags: 0
@@ -13851,7 +13881,7 @@ MonoBehaviour:
   Target: {fileID: 1001542158}
   rb: {fileID: 1468516135}
   EnemyGFX: {fileID: 40625410}
-  DetectionRange: 8
+  DetectionRange: 15
   EnemyAI: {fileID: 1468516136}
   Speed: 2
   StartWaitTime: 0
@@ -13912,7 +13942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1001542158}
   Patrol: {fileID: 1468516133}
-  speed: 400
+  speed: 800
   nextWaypointDistance: 3
   enemyGFX: {fileID: 40625410}
   force: {x: 0, y: 0}
@@ -14139,6 +14169,9 @@ Transform:
   - {fileID: 1795051484}
   - {fileID: 2032485036}
   - {fileID: 1235664505}
+  - {fileID: 1348459663}
+  - {fileID: 1605864885}
+  - {fileID: 2127910906}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14216,6 +14249,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598222828}
   m_CullTransparentMesh: 0
+--- !u!1 &1605864884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605864885}
+  m_Layer: 0
+  m_Name: FlyingEyeMoveSpot2
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605864885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605864884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.87, y: -12.97, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538545175}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1626172989
 GameObject:
   m_ObjectHideFlags: 0
@@ -14572,7 +14635,7 @@ MonoBehaviour:
     m_Bits: 512
   AttackRange: 2
   AttackDamage: 50
-  AttackRate: 1
+  AttackRate: 2
   movement: {fileID: 962461586}
   healthbar: {fileID: 468964863}
   MaxHealth: 100
@@ -15313,7 +15376,7 @@ MonoBehaviour:
     m_Bits: 512
   AttackRange: 3
   AttackDamage: 50
-  AttackRate: 1
+  AttackRate: 3
   movement: {fileID: 655466924}
   healthbar: {fileID: 1130556159}
   MaxHealth: 140
@@ -15327,7 +15390,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.36690044, y: -0.44788313}
@@ -15666,7 +15729,7 @@ GameObject:
   m_Layer: 0
   m_Name: SkeletonMoveSpot1
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -16225,3 +16288,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127144186}
   m_CullTransparentMesh: 0
+--- !u!1 &2127910905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2127910906}
+  m_Layer: 0
+  m_Name: FlyingEyeMoveSpot3
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2127910906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127910905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.51, y: -15.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538545175}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
