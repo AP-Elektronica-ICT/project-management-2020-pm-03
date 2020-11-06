@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FlyingEye_Death_right
+  m_Name: FlyingEye_TakeHit_Left
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6991849013916550155, guid: b9517addf15136e47a89337d912454b0,
+      value: {fileID: 8915827844977515986, guid: fa39fa082f78e044fb734d977b9e2448,
         type: 3}
     - time: 0.125
-      value: {fileID: -276728812324164698, guid: b9517addf15136e47a89337d912454b0,
+      value: {fileID: 8224753502360701292, guid: fa39fa082f78e044fb734d977b9e2448,
         type: 3}
     - time: 0.25
-      value: {fileID: 3156895337291164288, guid: b9517addf15136e47a89337d912454b0,
+      value: {fileID: 7390877658489465372, guid: fa39fa082f78e044fb734d977b9e2448,
         type: 3}
     - time: 0.375
-      value: {fileID: 1400002288684528572, guid: b9517addf15136e47a89337d912454b0,
+      value: {fileID: -7844334692018932532, guid: fa39fa082f78e044fb734d977b9e2448,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -50,10 +50,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6991849013916550155, guid: b9517addf15136e47a89337d912454b0, type: 3}
-    - {fileID: -276728812324164698, guid: b9517addf15136e47a89337d912454b0, type: 3}
-    - {fileID: 3156895337291164288, guid: b9517addf15136e47a89337d912454b0, type: 3}
-    - {fileID: 1400002288684528572, guid: b9517addf15136e47a89337d912454b0, type: 3}
+    - {fileID: 8915827844977515986, guid: fa39fa082f78e044fb734d977b9e2448, type: 3}
+    - {fileID: 8224753502360701292, guid: fa39fa082f78e044fb734d977b9e2448, type: 3}
+    - {fileID: 7390877658489465372, guid: fa39fa082f78e044fb734d977b9e2448, type: 3}
+    - {fileID: -7844334692018932532, guid: fa39fa082f78e044fb734d977b9e2448, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
