@@ -15260,7 +15260,7 @@ MonoBehaviour:
   Target: {fileID: 1001542158}
   rb: {fileID: 1477161179}
   EnemyGFX: {fileID: 985629559}
-  DetectionRange: 12
+  DetectionRange: 10
   EnemyAI: {fileID: 1477161180}
   Speed: 2
   StartWaitTime: 0
@@ -15322,7 +15322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1001542158}
   Patrol: {fileID: 1477161177}
-  speed: 800
+  speed: 300
   nextWaypointDistance: 3
   enemyGFX: {fileID: 985629559}
   force: {x: 0, y: 0}
