@@ -1,223 +1,265 @@
 fileFormatVersion: 2
-guid: f2ed27d6c1c3ccc48959bcca269d88f0
+guid: 5cd962339cc7300469f4d338cfd0f51a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: LightBandit_0
+      213: 3843475274527241313
+    second: LightBandit_MIRRORED_0
   - first:
-      213: 21300002
-    second: LightBandit_1
+      213: 1237034178009556344
+    second: LightBandit_MIRRORED_1
   - first:
-      213: 21300004
-    second: LightBandit_2
+      213: 3783613578085490388
+    second: LightBandit_MIRRORED_2
   - first:
-      213: 21300006
-    second: LightBandit_3
+      213: 108340277261515756
+    second: LightBandit_MIRRORED_3
   - first:
-      213: 21300008
-    second: LightBandit_4
+      213: -4180138047381700787
+    second: LightBandit_MIRRORED_4
   - first:
-      213: 21300010
-    second: LightBandit_5
+      213: -8283465608965587471
+    second: LightBandit_MIRRORED_5
   - first:
-      213: 21300012
-    second: LightBandit_6
+      213: -3593416264303337153
+    second: LightBandit_MIRRORED_6
   - first:
-      213: 21300014
-    second: LightBandit_7
+      213: 5656805837678646802
+    second: LightBandit_MIRRORED_7
   - first:
-      213: 21300016
-    second: LightBandit_8
+      213: -563164428737438971
+    second: LightBandit_MIRRORED_8
   - first:
-      213: 21300018
-    second: LightBandit_9
+      213: 1017611116284748575
+    second: LightBandit_MIRRORED_9
   - first:
-      213: 21300020
-    second: LightBandit_10
+      213: 4557641963866403207
+    second: LightBandit_MIRRORED_10
   - first:
-      213: 21300022
-    second: LightBandit_11
+      213: 5177632135804666309
+    second: LightBandit_MIRRORED_11
   - first:
-      213: 21300024
-    second: LightBandit_12
+      213: -6433616502429110099
+    second: LightBandit_MIRRORED_12
   - first:
-      213: 21300026
-    second: LightBandit_13
+      213: 6031585115653509083
+    second: LightBandit_MIRRORED_13
   - first:
-      213: 21300028
-    second: LightBandit_14
+      213: -9120131723443257131
+    second: LightBandit_MIRRORED_14
   - first:
-      213: 21300030
-    second: LightBandit_15
+      213: -8181976185239511608
+    second: LightBandit_MIRRORED_15
   - first:
-      213: 21300032
-    second: LightBandit_16
+      213: 1692789422937576839
+    second: LightBandit_MIRRORED_16
   - first:
-      213: 21300034
-    second: LightBandit_17
+      213: 6395000904954062987
+    second: LightBandit_MIRRORED_17
   - first:
-      213: 21300036
-    second: LightBandit_18
+      213: -8100121332151294642
+    second: LightBandit_MIRRORED_18
   - first:
-      213: 21300038
-    second: LightBandit_19
+      213: 2173325371668943254
+    second: LightBandit_MIRRORED_19
   - first:
-      213: 21300040
-    second: LightBandit_20
+      213: 5022654549676440966
+    second: LightBandit_MIRRORED_20
   - first:
-      213: 21300042
-    second: LightBandit_21
+      213: 5818159176711639563
+    second: LightBandit_MIRRORED_21
   - first:
-      213: 21300044
-    second: LightBandit_22
+      213: 8648913439105490378
+    second: LightBandit_MIRRORED_22
   - first:
-      213: 21300046
-    second: LightBandit_23
+      213: 8604212059190165052
+    second: LightBandit_MIRRORED_23
   - first:
-      213: 21300048
-    second: LightBandit_24
+      213: 1689426502998770362
+    second: LightBandit_MIRRORED_24
   - first:
-      213: 21300050
-    second: LightBandit_25
+      213: 5552378262123767
+    second: LightBandit_MIRRORED_25
   - first:
-      213: 21300052
-    second: LightBandit_26
+      213: -6795967546422328222
+    second: LightBandit_MIRRORED_26
   - first:
-      213: 21300054
-    second: LightBandit_27
+      213: 5597904654830176106
+    second: LightBandit_MIRRORED_27
   - first:
-      213: 21300056
-    second: LightBandit_28
+      213: -3639165370213383312
+    second: LightBandit_MIRRORED_28
   - first:
-      213: 21300058
-    second: LightBandit_29
+      213: 4613010787549721478
+    second: LightBandit_MIRRORED_29
   - first:
-      213: 21300060
-    second: LightBandit_30
+      213: 2971955431842273300
+    second: LightBandit_MIRRORED_30
   - first:
-      213: 21300062
-    second: LightBandit_31
+      213: -1727824823997661561
+    second: LightBandit_MIRRORED_31
   - first:
-      213: 21300064
-    second: LightBandit_32
+      213: 2217221249228939380
+    second: LightBandit_MIRRORED_32
   - first:
-      213: 21300066
-    second: LightBandit_33
+      213: 1142412896988492808
+    second: LightBandit_MIRRORED_33
   - first:
-      213: 21300068
-    second: LightBandit_34
+      213: 7389240776609237374
+    second: LightBandit_MIRRORED_34
   - first:
-      213: 21300070
-    second: LightBandit_35
+      213: 9072137673111748171
+    second: LightBandit_MIRRORED_35
   - first:
-      213: 4934140306522108382
-    second: LightBandit_0
+      213: 3474780810307506858
+    second: LightBandit_MIRRORED_36
   - first:
-      213: 199220036092633495
-    second: LightBandit_1
+      213: 6736031611920057038
+    second: LightBandit_MIRRORED_37
   - first:
-      213: -3793065437365655120
-    second: LightBandit_2
+      213: 874934488609684532
+    second: LightBandit_MIRRORED_38
   - first:
-      213: 5762447904151190788
-    second: LightBandit_3
+      213: -4877617260749900768
+    second: LightBandit_MIRRORED_39
   - first:
-      213: 184462397613601461
-    second: LightBandit_4
+      213: 4003780713164234255
+    second: LightBandit_MIRRORED_40
   - first:
-      213: -7734575796892476207
-    second: LightBandit_5
+      213: -3652335395896401887
+    second: LightBandit_MIRRORED_41
   - first:
-      213: 5420599328299512162
-    second: LightBandit_6
+      213: -9106900361273145316
+    second: LightBandit_MIRRORED_42
   - first:
-      213: -7400165603728366334
-    second: LightBandit_7
+      213: -4178614687598860084
+    second: LightBandit_MIRRORED_43
   - first:
-      213: 4707871352329790198
-    second: LightBandit_8
+      213: 5330915843483350765
+    second: LightBandit_MIRRORED_44
   - first:
-      213: 4684572714520111212
-    second: LightBandit_9
+      213: -2176567841160513587
+    second: LightBandit_MIRRORED_45
   - first:
-      213: -286215300199792668
-    second: LightBandit_10
+      213: 5951710810016062927
+    second: LightBandit_MIRRORED_46
   - first:
-      213: 7470045143188182114
-    second: LightBandit_11
+      213: 5993411457522337258
+    second: LightBandit_MIRRORED_47
   - first:
-      213: -5291732744143370936
-    second: LightBandit_12
+      213: -3199759538411696867
+    second: LightBandit_MIRRORED_48
   - first:
-      213: -5205192690280478187
-    second: LightBandit_13
+      213: -1141439664905394630
+    second: LightBandit_MIRRORED_49
   - first:
-      213: -9189121880142249697
-    second: LightBandit_14
+      213: 1201842807829908935
+    second: LightBandit_MIRRORED_0
   - first:
-      213: -2275518834047429075
-    second: LightBandit_15
+      213: -1331851979236269809
+    second: LightBandit_MIRRORED_1
   - first:
-      213: -432466364012126320
-    second: LightBandit_16
+      213: -152568004855582944
+    second: LightBandit_MIRRORED_2
   - first:
-      213: -6547748350301717452
-    second: LightBandit_17
+      213: -7369073524317440707
+    second: LightBandit_MIRRORED_3
   - first:
-      213: -9147449693609385369
-    second: LightBandit_18
+      213: 3028894957865402594
+    second: LightBandit_MIRRORED_4
   - first:
-      213: 6389746812270015105
-    second: LightBandit_19
+      213: 7924425254400941498
+    second: LightBandit_MIRRORED_5
   - first:
-      213: 6046700340489993513
-    second: LightBandit_20
+      213: -1609836651644452353
+    second: LightBandit_MIRRORED_6
   - first:
-      213: 6086905928091726092
-    second: LightBandit_21
+      213: 2883057233943881731
+    second: LightBandit_MIRRORED_7
   - first:
-      213: -4059423082674559007
-    second: LightBandit_22
+      213: 3959992646313032659
+    second: LightBandit_MIRRORED_8
   - first:
-      213: -8136027096593766814
-    second: LightBandit_23
+      213: -6503234594635723945
+    second: LightBandit_MIRRORED_9
   - first:
-      213: -1506778517376254606
-    second: LightBandit_24
+      213: 4470958250240349584
+    second: LightBandit_MIRRORED_10
   - first:
-      213: 7879160192275243311
-    second: LightBandit_25
+      213: -349891261820289958
+    second: LightBandit_MIRRORED_11
   - first:
-      213: -1871480182136569439
-    second: LightBandit_26
+      213: -5573100255124542253
+    second: LightBandit_MIRRORED_12
   - first:
-      213: 6793143449532246489
-    second: LightBandit_27
+      213: -8839528825430238191
+    second: LightBandit_MIRRORED_13
   - first:
-      213: 5357688194466298927
-    second: LightBandit_28
+      213: -8047068360858099794
+    second: LightBandit_MIRRORED_14
   - first:
-      213: 787442259200014970
-    second: LightBandit_29
+      213: 8537364434033566793
+    second: LightBandit_MIRRORED_15
   - first:
-      213: 4191369675846477462
-    second: LightBandit_30
+      213: 3156738247186490996
+    second: LightBandit_MIRRORED_16
   - first:
-      213: 4354214996985446698
-    second: LightBandit_31
+      213: 3585962707196068840
+    second: LightBandit_MIRRORED_17
   - first:
-      213: 281259605958427469
-    second: LightBandit_32
+      213: -7390832178614425371
+    second: LightBandit_MIRRORED_18
   - first:
-      213: 8329464067899960501
-    second: LightBandit_33
+      213: 4638590396830225431
+    second: LightBandit_MIRRORED_19
   - first:
-      213: -6276740940018014436
-    second: LightBandit_34
+      213: 8730527490318718548
+    second: LightBandit_MIRRORED_20
   - first:
-      213: 3730428872026013724
-    second: LightBandit_35
+      213: 7582187433092333342
+    second: LightBandit_MIRRORED_21
+  - first:
+      213: -4046148707804463363
+    second: LightBandit_MIRRORED_22
+  - first:
+      213: -6699013881406001048
+    second: LightBandit_MIRRORED_23
+  - first:
+      213: 3846179462735107039
+    second: LightBandit_MIRRORED_24
+  - first:
+      213: -6827316201084519575
+    second: LightBandit_MIRRORED_25
+  - first:
+      213: -2276943837403095716
+    second: LightBandit_MIRRORED_26
+  - first:
+      213: -2832575676473013546
+    second: LightBandit_MIRRORED_27
+  - first:
+      213: 1325039907823336511
+    second: LightBandit_MIRRORED_28
+  - first:
+      213: 2640683507327502877
+    second: LightBandit_MIRRORED_29
+  - first:
+      213: -5951987190808145147
+    second: LightBandit_MIRRORED_30
+  - first:
+      213: 7356498569133684521
+    second: LightBandit_MIRRORED_31
+  - first:
+      213: 5567451292099632977
+    second: LightBandit_MIRRORED_32
+  - first:
+      213: -5346422845241140858
+    second: LightBandit_MIRRORED_33
+  - first:
+      213: -5755049021359661097
+    second: LightBandit_MIRRORED_34
+  - first:
+      213: 538895940358853215
+    second: LightBandit_MIRRORED_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -273,7 +315,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -315,10 +357,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LightBandit_0
+      name: LightBandit_MIRRORED_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 208
         width: 48
         height: 48
@@ -329,17 +371,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed1ff227776997440800000000000000
-      internalID: 4934140306522108382
+      spriteID: 7cd4f848aadcda010800000000000000
+      internalID: 1201842807829908935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_1
+      name: LightBandit_MIRRORED_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 176
         y: 208
         width: 48
         height: 48
@@ -350,17 +392,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791217b3195c3c200800000000000000
-      internalID: 199220036092633495
+      spriteID: f01a83c6eaf448de0800000000000000
+      internalID: -1331851979236269809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_2
+      name: LightBandit_MIRRORED_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 224
         y: 208
         width: 48
         height: 48
@@ -371,17 +413,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b9220cc4135c5bc0800000000000000
-      internalID: -3793065437365655120
+      spriteID: 02f2e7a3538f1edf0800000000000000
+      internalID: -152568004855582944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_3
+      name: LightBandit_MIRRORED_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 272
         y: 208
         width: 48
         height: 48
@@ -392,17 +434,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d30ab86d358ff40800000000000000
-      internalID: 5762447904151190788
+      spriteID: d35b2533caacbb990800000000000000
+      internalID: -7369073524317440707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_4
+      name: LightBandit_MIRRORED_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 320
         y: 208
         width: 48
         height: 48
@@ -413,17 +455,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b2fc24c2975f8200800000000000000
-      internalID: 184462397613601461
+      spriteID: 2e00a899aebc80a20800000000000000
+      internalID: 3028894957865402594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_5
+      name: LightBandit_MIRRORED_5
       rect:
         serializedVersion: 2
-        x: 240
+        x: 368
         y: 208
         width: 48
         height: 48
@@ -434,17 +476,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dcd3e1da4449a490800000000000000
-      internalID: -7734575796892476207
+      spriteID: abdd3b198c639fd60800000000000000
+      internalID: 7924425254400941498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_6
+      name: LightBandit_MIRRORED_6
       rect:
         serializedVersion: 2
-        x: 288
+        x: 416
         y: 208
         width: 48
         height: 48
@@ -455,17 +497,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26173099e56d93b40800000000000000
-      internalID: 5420599328299512162
+      spriteID: ff104583816b8a9e0800000000000000
+      internalID: -1609836651644452353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_7
+      name: LightBandit_MIRRORED_7
       rect:
         serializedVersion: 2
-        x: 336
+        x: 464
         y: 208
         width: 48
         height: 48
@@ -476,17 +518,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205e4b657945d4990800000000000000
-      internalID: -7400165603728366334
+      spriteID: 3086858774da20820800000000000000
+      internalID: 2883057233943881731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_8
+      name: LightBandit_MIRRORED_8
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 160
         width: 48
         height: 48
@@ -497,17 +539,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2ead33d08b55140800000000000000
-      internalID: 4707871352329790198
+      spriteID: 3dbb5a4b458b4f630800000000000000
+      internalID: 3959992646313032659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_9
+      name: LightBandit_MIRRORED_9
       rect:
         serializedVersion: 2
-        x: 48
+        x: 176
         y: 160
         width: 48
         height: 48
@@ -518,17 +560,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c68657d5012f20140800000000000000
-      internalID: 4684572714520111212
+      spriteID: 75bc4bf779edfb5a0800000000000000
+      internalID: -6503234594635723945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_10
+      name: LightBandit_MIRRORED_10
       rect:
         serializedVersion: 2
-        x: 96
+        x: 224
         y: 160
         width: 48
         height: 48
@@ -539,17 +581,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ef3f4e63b8270cf0800000000000000
-      internalID: -286215300199792668
+      spriteID: 0959d2727d80c0e30800000000000000
+      internalID: 4470958250240349584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_11
+      name: LightBandit_MIRRORED_11
       rect:
         serializedVersion: 2
-        x: 144
+        x: 272
         y: 160
         width: 48
         height: 48
@@ -560,17 +602,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2641ddfca7eeaa760800000000000000
-      internalID: 7470045143188182114
+      spriteID: a5c303d40cfe42bf0800000000000000
+      internalID: -349891261820289958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_12
+      name: LightBandit_MIRRORED_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 320
         y: 160
         width: 48
         height: 48
@@ -581,17 +623,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84508032b1dff86b0800000000000000
-      internalID: -5291732744143370936
+      spriteID: 3dca9a378de58a2b0800000000000000
+      internalID: -5573100255124542253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_13
+      name: LightBandit_MIRRORED_13
       rect:
         serializedVersion: 2
-        x: 240
+        x: 368
         y: 160
         width: 48
         height: 48
@@ -602,17 +644,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a4f5493d073c7b0800000000000000
-      internalID: -5205192690280478187
+      spriteID: 11c976afd5fa35580800000000000000
+      internalID: -8839528825430238191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_14
+      name: LightBandit_MIRRORED_14
       rect:
         serializedVersion: 2
-        x: 288
+        x: 416
         y: 160
         width: 48
         height: 48
@@ -623,17 +665,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f110a58065ea97080800000000000000
-      internalID: -9189121880142249697
+      spriteID: eaf94c306f1135090800000000000000
+      internalID: -8047068360858099794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_15
+      name: LightBandit_MIRRORED_15
       rect:
         serializedVersion: 2
-        x: 336
+        x: 464
         y: 160
         width: 48
         height: 48
@@ -644,17 +686,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2654e83dabbb60e0800000000000000
-      internalID: -2275518834047429075
+      spriteID: 944ef9848bfca7670800000000000000
+      internalID: 8537364434033566793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_16
+      name: LightBandit_MIRRORED_16
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 112
         width: 48
         height: 48
@@ -665,17 +707,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f90cb12229ff9f0800000000000000
-      internalID: -432466364012126320
+      spriteID: 476a070f5bcfecb20800000000000000
+      internalID: 3156738247186490996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_17
+      name: LightBandit_MIRRORED_17
       rect:
         serializedVersion: 2
-        x: 48
+        x: 176
         y: 112
         width: 48
         height: 48
@@ -686,17 +728,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43cbd9d1199b125a0800000000000000
-      internalID: -6547748350301717452
+      spriteID: 8e3483c3516e3c130800000000000000
+      internalID: 3585962707196068840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_18
+      name: LightBandit_MIRRORED_18
       rect:
         serializedVersion: 2
-        x: 96
+        x: 224
         y: 112
         width: 48
         height: 48
@@ -707,17 +749,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76228ab08fabd0180800000000000000
-      internalID: -9147449693609385369
+      spriteID: 5e82927ba4d7e6990800000000000000
+      internalID: -7390832178614425371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_19
+      name: LightBandit_MIRRORED_19
       rect:
         serializedVersion: 2
-        x: 144
+        x: 272
         y: 112
         width: 48
         height: 48
@@ -728,17 +770,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 182f9061fd0fca850800000000000000
-      internalID: 6389746812270015105
+      spriteID: 7149a9db3659f5040800000000000000
+      internalID: 4638590396830225431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_20
+      name: LightBandit_MIRRORED_20
       rect:
         serializedVersion: 2
-        x: 192
+        x: 320
         y: 112
         width: 48
         height: 48
@@ -749,17 +791,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92db3224ce13ae350800000000000000
-      internalID: 6046700340489993513
+      spriteID: 456da320f70192970800000000000000
+      internalID: 8730527490318718548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_21
+      name: LightBandit_MIRRORED_21
       rect:
         serializedVersion: 2
-        x: 240
+        x: 368
         y: 112
         width: 48
         height: 48
@@ -770,17 +812,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c01702911b8097450800000000000000
-      internalID: 6086905928091726092
+      spriteID: e1f36e95c47593960800000000000000
+      internalID: 7582187433092333342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_22
+      name: LightBandit_MIRRORED_22
       rect:
         serializedVersion: 2
-        x: 288
+        x: 416
         y: 112
         width: 48
         height: 48
@@ -791,17 +833,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e7692cc6380aa7c0800000000000000
-      internalID: -4059423082674559007
+      spriteID: dfeb8ea003139d7c0800000000000000
+      internalID: -4046148707804463363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_23
+      name: LightBandit_MIRRORED_23
       rect:
         serializedVersion: 2
-        x: 336
+        x: 464
         y: 112
         width: 48
         height: 48
@@ -812,17 +854,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26663905676071f80800000000000000
-      internalID: -8136027096593766814
+      spriteID: 86072652e525803a0800000000000000
+      internalID: -6699013881406001048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_24
+      name: LightBandit_MIRRORED_24
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 64
         width: 48
         height: 48
@@ -833,17 +875,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27d3994fbe8d61be0800000000000000
-      internalID: -1506778517376254606
+      spriteID: fd39abae7df506530800000000000000
+      internalID: 3846179462735107039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_25
+      name: LightBandit_MIRRORED_25
       rect:
         serializedVersion: 2
-        x: 48
+        x: 176
         y: 64
         width: 48
         height: 48
@@ -854,17 +896,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f21e6f40376685d60800000000000000
-      internalID: 7879160192275243311
+      spriteID: 96b761976108041a0800000000000000
+      internalID: -6827316201084519575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_26
+      name: LightBandit_MIRRORED_26
       rect:
         serializedVersion: 2
-        x: 96
+        x: 224
         y: 64
         width: 48
         height: 48
@@ -875,17 +917,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a1019b90ba2706e0800000000000000
-      internalID: -1871480182136569439
+      spriteID: c5dd216c4aba660e0800000000000000
+      internalID: -2276943837403095716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_27
+      name: LightBandit_MIRRORED_27
       rect:
         serializedVersion: 2
-        x: 144
+        x: 272
         y: 64
         width: 48
         height: 48
@@ -896,17 +938,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d924a9c9f7164e50800000000000000
-      internalID: 6793143449532246489
+      spriteID: 6da0a6c0e6ba0b8d0800000000000000
+      internalID: -2832575676473013546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_28
+      name: LightBandit_MIRRORED_28
       rect:
         serializedVersion: 2
-        x: 192
+        x: 320
         y: 64
         width: 48
         height: 48
@@ -917,17 +959,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2cb770d6055a5a40800000000000000
-      internalID: 5357688194466298927
+      spriteID: f3cb60b96cc736210800000000000000
+      internalID: 1325039907823336511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_29
+      name: LightBandit_MIRRORED_29
       rect:
         serializedVersion: 2
-        x: 240
+        x: 368
         y: 64
         width: 48
         height: 48
@@ -938,17 +980,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7a7fbc009e8dea00800000000000000
-      internalID: 787442259200014970
+      spriteID: d1a0d72b8a795a420800000000000000
+      internalID: 2640683507327502877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_30
+      name: LightBandit_MIRRORED_30
       rect:
         serializedVersion: 2
-        x: 288
+        x: 416
         y: 64
         width: 48
         height: 48
@@ -959,17 +1001,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6966c2b638cba2a30800000000000000
-      internalID: 4191369675846477462
+      spriteID: 50394385f2b466da0800000000000000
+      internalID: -5951987190808145147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_31
+      name: LightBandit_MIRRORED_31
       rect:
         serializedVersion: 2
-        x: 336
+        x: 464
         y: 64
         width: 48
         height: 48
@@ -980,17 +1022,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a210ffa58774d6c30800000000000000
-      internalID: 4354214996985446698
+      spriteID: 927f1e3e878871660800000000000000
+      internalID: 7356498569133684521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_32
+      name: LightBandit_MIRRORED_32
       rect:
         serializedVersion: 2
-        x: 0
+        x: 320
         y: 16
         width: 48
         height: 48
@@ -1001,17 +1043,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4381d61f1c37e300800000000000000
-      internalID: 281259605958427469
+      spriteID: 15f53e9d37f834d40800000000000000
+      internalID: 5567451292099632977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_33
+      name: LightBandit_MIRRORED_33
       rect:
         serializedVersion: 2
-        x: 48
+        x: 368
         y: 16
         width: 48
         height: 48
@@ -1022,17 +1064,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bcae883073389370800000000000000
-      internalID: 8329464067899960501
+      spriteID: 6895e52bfb0bdc5b0800000000000000
+      internalID: -5346422845241140858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_34
+      name: LightBandit_MIRRORED_34
       rect:
         serializedVersion: 2
-        x: 96
+        x: 416
         y: 16
         width: 48
         height: 48
@@ -1043,17 +1085,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c172313ee5984e8a0800000000000000
-      internalID: -6276740940018014436
+      spriteID: 7dfd5e81865f120b0800000000000000
+      internalID: -5755049021359661097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LightBandit_35
+      name: LightBandit_MIRRORED_35
       rect:
         serializedVersion: 2
-        x: 144
+        x: 464
         y: 16
         width: 48
         height: 48
@@ -1064,8 +1106,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c10c8f06b4525c330800000000000000
-      internalID: 3730428872026013724
+      spriteID: f525df7a00b8a7700800000000000000
+      internalID: 538895940358853215
       vertices: []
       indices: 
       edges: []
@@ -1073,7 +1115,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7d11182b063dd464e84a53d686a40f8f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
