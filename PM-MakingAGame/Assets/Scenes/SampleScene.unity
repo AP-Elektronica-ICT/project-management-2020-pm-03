@@ -2962,7 +2962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553620320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.45, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0.8, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 985629559}
@@ -5318,12 +5318,12 @@ MonoBehaviour:
   EnemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  AttackRange: 1.5
-  AttackDamage: 50
+  AttackRange: 2
+  AttackDamage: 20
   AttackRate: 1
   movement: {fileID: 1477161180}
   healthbar: {fileID: 1735963481}
-  MaxHealth: 35
+  MaxHealth: 100
 --- !u!61 &985629563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15322,7 +15322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1001542158}
   Patrol: {fileID: 1477161177}
-  speed: 300
+  speed: 500
   nextWaypointDistance: 3
   enemyGFX: {fileID: 985629559}
   force: {x: 0, y: 0}
