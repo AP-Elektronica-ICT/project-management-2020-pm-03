@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Patrol : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class Patrol : MonoBehaviour
     private float waittime;
     public float StartWaitTime;
     public Transform[] moveSpots;
-    private int randomSpot;
+    public int randomSpot;
     // Start is called before the first frame update
     void Start()
     {

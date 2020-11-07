@@ -98,6 +98,15 @@ public class EnemyAI : MonoBehaviour
         }
         if (Vector2.Distance(target.position, rb.position) >= Patrol.DetectionRange)
         {
+            if (rb.position.x >= Patrol.randomSpot)
+            {
+                animator.SetFloat("Horizontal", -1);
+            }
+            else if (rb.position.x <= Patrol.randomSpot)
+            {
+                animator.SetFloat("Horizontal", 1);
+            }
+
             this.enabled = false;
             Patrol.enabled = true;
         }
