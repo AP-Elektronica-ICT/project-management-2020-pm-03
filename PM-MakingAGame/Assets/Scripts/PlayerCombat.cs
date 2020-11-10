@@ -9,10 +9,13 @@ using UnityEngine.UI;
 public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
-
+    
     public PlayerMovement movement;
 
-    public int MaxHealth = 100;
+    public DifficultySetting df;
+
+
+    public int MaxHealth;
     private int currentHealth;
 
     public Transform attackPoint;
@@ -25,13 +28,17 @@ public class PlayerCombat : MonoBehaviour
     private float nextAttackTime = 0f;
 
     public HealthBar healthbar;
-
+    
     
 
     void Start()
     {
-        currentHealth = MaxHealth;
-        healthbar.SetMaxHealth(MaxHealth);
+        
+        
+        SetDiff();
+       
+
+       
     }
 
     // Update is called once per frame
@@ -44,9 +51,9 @@ public class PlayerCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
-           
         }
     }
+
     void Attack()
     {
         animator.SetTrigger("Attack");
@@ -55,7 +62,7 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (var enemy in HitEnemies)
         {
-            Debug.Log("You hit " + enemy.name);
+            //Debug.Log("You hit " + enemy.name);
             enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
         }
     }
@@ -68,6 +75,7 @@ public class PlayerCombat : MonoBehaviour
         }
         Gizmos.DrawWireSphere(attackPoint.position, AttackRange);
     }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -81,7 +89,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("U died!");
+        //Debug.Log("U died!");
         animator.SetBool("IsDead", true);
 
         Invoke("StartDeathScreen", 1.5f);
@@ -95,4 +103,40 @@ public class PlayerCombat : MonoBehaviour
     {
         SceneManager.LoadScene("Death Screen");
     }
+
+    private void SetDiff()
+    {
+        int health = 0;
+        int damage = 0;
+        switch (DifficultySetting.difficultyMode)
+        {
+            case Diff.Ez:
+                health = 200;
+                damage = 65;
+                break;
+            case Diff.Norm:
+                health = 150;
+                damage = 50;
+                break;
+            case Diff.Hard:
+                health = 100;
+                damage = 35;
+                break;
+            default:
+                break;
+        }
+        MaxHealth = health;
+        currentHealth = MaxHealth;
+        healthbar.SetMaxHealth(MaxHealth);
+        AttackDamage = damage;
+
+
+    }
+
+
+
+
+
+    
+
 }
