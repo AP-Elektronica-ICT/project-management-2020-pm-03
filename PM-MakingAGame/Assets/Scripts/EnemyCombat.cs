@@ -34,6 +34,7 @@ public class EnemyCombat : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         healthbar.SetMaxHealth(MaxHealth);
+        
     }
 
     void Update()
@@ -51,6 +52,16 @@ public class EnemyCombat : MonoBehaviour
     void Attack()
     {
         animator.SetTrigger("Attack");
+        if (animator.name == "BanditGFX" || animator.name == "SmallSkeletonGFX")
+        {
+            FindObjectOfType<AudioManager>().Play("BigEnemyAttack");
+        }
+        else
+        {
+            FindObjectOfType<AudioManager>().Play("AttackEnemy");
+
+        }
+        
 
         Collider2D[] HitPlayer = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
@@ -74,6 +85,17 @@ public class EnemyCombat : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        
+        animator.SetTrigger("Attack");
+        if (animator.name == "BanditGFX" || animator.name == "SmallSkeletonGFX")
+        {
+            FindObjectOfType<AudioManager>().Play("BigEnemyHit");
+        }
+        else
+        {
+            FindObjectOfType<AudioManager>().Play("HitEnemy");
+
+        }
         animator.SetTrigger("Hurt");
         healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
@@ -85,6 +107,17 @@ public class EnemyCombat : MonoBehaviour
     void Die()
     {
         //Debug.Log("Enemy died!");
+        //FindObjectOfType<AudioManager>().Play("DeathEnemy");
+        animator.SetTrigger("Attack");
+        if (animator.name == "BanditGFX" || animator.name == "SmallSkeletonGFX")
+        {
+            FindObjectOfType<AudioManager>().Play("BigEnemyDeath");
+        }
+        else
+        {
+            FindObjectOfType<AudioManager>().Play("DeathEnemy");
+
+        }
         animator.SetBool("IsDead", true);
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
