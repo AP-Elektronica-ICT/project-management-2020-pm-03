@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class PlayerCombat : MonoBehaviour
 {
+
+    
     public Animator animator;
     
     public PlayerMovement movement;
@@ -56,8 +58,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        
 
+        animator.SetTrigger("Attack");
+        FindObjectOfType<AudioManager>().Play("DeathEnemy");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
         foreach (var enemy in HitEnemies)
