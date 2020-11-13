@@ -46,7 +46,7 @@ MonoBehaviour:
   sounds:
   - Name: DeathEnemy
     clip: {fileID: 8300000, guid: 6c9b2b2b803f1be4e85e81ad32a8ba66, type: 3}
-    volume: 0.994
+    volume: 0.709
     pitch: 1.69
     loop: 0
     mute: 0
@@ -59,4 +59,76 @@ MonoBehaviour:
     loop: 1
     mute: 0
     playonawake: 1
+    source: {fileID: 0}
+  - Name: HeroAttack
+    clip: {fileID: 8300000, guid: 40df0c297576ee3418235f971eff4794, type: 3}
+    volume: 0.189
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: HitEnemy
+    clip: {fileID: 8300000, guid: ce2fc56cd313d9f4387e966f438af46b, type: 3}
+    volume: 0.536
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: AttackEnemy
+    clip: {fileID: 8300000, guid: 3655d60c1a30eb344aef1a65c4b0c52e, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: HeroHit
+    clip: {fileID: 8300000, guid: cc2de5038c2d48848808536ac8306c70, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: HeroDeath
+    clip: {fileID: 8300000, guid: f7f4b989dc3e9b24f8793ea2fda43890, type: 3}
+    volume: 0.697
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: HeroRun
+    clip: {fileID: 8300000, guid: 96376ad3a86a8ec45b0f11093c919def, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 1
+    mute: 0
+    playonawake: 1
+    source: {fileID: 0}
+  - Name: BigEnemyHit
+    clip: {fileID: 8300000, guid: 2be3f3f10232fec47992a7d9868a5532, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: BigEnemyAttack
+    clip: {fileID: 8300000, guid: 5d6a6664c593c3c41a7eb28ccfacf2b0, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: BigEnemyDeath
+    clip: {fileID: 8300000, guid: 210f06a896f69cc4084b96f162c274c9, type: 3}
+    volume: 0.524
+    pitch: 0.93
+    loop: 0
+    mute: 0
+    playonawake: 0
     source: {fileID: 0}

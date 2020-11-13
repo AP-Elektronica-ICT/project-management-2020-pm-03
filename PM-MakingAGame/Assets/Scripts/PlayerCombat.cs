@@ -35,8 +35,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Start()
     {
-        
-        
+        FindObjectOfType<AudioManager>().Play("HeroRun");
+
         SetDiff();
        
 
@@ -61,7 +61,7 @@ public class PlayerCombat : MonoBehaviour
         
 
         animator.SetTrigger("Attack");
-        FindObjectOfType<AudioManager>().Play("DeathEnemy");
+        FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
         foreach (var enemy in HitEnemies)
@@ -84,6 +84,7 @@ public class PlayerCombat : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        FindObjectOfType<AudioManager>().Play("HeroHit");
         healthbar.Sethealth(currentHealth);
         if (currentHealth <= 0)
         {
@@ -95,7 +96,7 @@ public class PlayerCombat : MonoBehaviour
     {
         //Debug.Log("U died!");
         animator.SetBool("IsDead", true);
-
+        FindObjectOfType<AudioManager>().Play("HeroDeath");
         Invoke("StartDeathScreen", 1.5f);
 
         GetComponent<Collider2D>().enabled = false;

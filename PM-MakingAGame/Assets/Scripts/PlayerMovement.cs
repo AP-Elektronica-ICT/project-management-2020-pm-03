@@ -42,11 +42,26 @@ public class PlayerMovement : MonoBehaviour
             Animation.SetFloat("LastMove", -1);
             attackPoint.localPosition = new Vector3(-1,0);
         }
+        runsound();
             
     }
 
     private void FixedUpdate()
     {
         RigidBody.MovePosition(RigidBody.position + movement * MovementSpeed * Time.fixedDeltaTime);
+    }
+    private void runsound()
+    {
+        
+        if (movement.x != 0 || movement.y != 0)
+        {
+            FindObjectOfType<AudioManager>().Unmute("HeroRun");
+            
+
+        }
+        else
+        {
+            FindObjectOfType<AudioManager>().Mute("HeroRun");
+        }
     }
 }

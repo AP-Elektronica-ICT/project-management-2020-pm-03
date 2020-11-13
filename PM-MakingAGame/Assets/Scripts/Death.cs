@@ -19,7 +19,7 @@ public class Death : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level1");
     }
 
     public void Quit()
