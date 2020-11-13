@@ -48,11 +48,15 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 6c9b2b2b803f1be4e85e81ad32a8ba66, type: 3}
     volume: 0.994
     pitch: 1.69
-    loop: 1
+    loop: 0
+    mute: 0
+    playonawake: 0
     source: {fileID: 0}
   - Name: MainMenu
     clip: {fileID: 8300000, guid: 20a74169fd5309f4a8cd7f2c6e3576ca, type: 3}
     volume: 0.994
     pitch: 0.98
     loop: 1
+    mute: 0
+    playonawake: 1
     source: {fileID: 0}
