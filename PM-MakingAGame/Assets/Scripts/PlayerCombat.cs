@@ -28,8 +28,9 @@ public class PlayerCombat : MonoBehaviour
     private float nextAttackTime = 0f;
 
     public HealthBar healthbar;
-    
-    
+
+    private WaitForSeconds regenTick = new WaitForSeconds(0.2f);
+    private Coroutine regen;
 
     void Start()
     {
@@ -81,6 +82,11 @@ public class PlayerCombat : MonoBehaviour
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
         healthbar.Sethealth(currentHealth);
+        if (regen != null)
+        {
+            StopCoroutine(regen);
+        }
+        regen = StartCoroutine(HealthRegen());
         if (currentHealth <= 0)
         {
             Die();
@@ -131,6 +137,17 @@ public class PlayerCombat : MonoBehaviour
         AttackDamage = damage;
 
 
+    }
+    private IEnumerator HealthRegen()
+    {
+        yield return new WaitForSeconds(5);
+        while (currentHealth<MaxHealth)
+        {
+            currentHealth += 1;
+            healthbar.Sethealth(currentHealth);
+            yield return regenTick;
+        }
+        
     }
 
 
