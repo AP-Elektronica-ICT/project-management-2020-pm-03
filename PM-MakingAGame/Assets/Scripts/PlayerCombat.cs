@@ -127,6 +127,7 @@ public class PlayerCombat : MonoBehaviour
             case Diff.Hard:
                 health = 100;
                 damage = 35;
+                
                 break;
             default:
                 break;
@@ -140,13 +141,32 @@ public class PlayerCombat : MonoBehaviour
     }
     private IEnumerator HealthRegen()
     {
-        yield return new WaitForSeconds(5);
-        while (currentHealth<MaxHealth)
+        switch (DifficultySetting.difficultyMode)
         {
-            currentHealth += 1;
-            healthbar.Sethealth(currentHealth);
-            yield return regenTick;
+            case Diff.Ez:
+                yield return new WaitForSeconds(2);
+                while (currentHealth < MaxHealth)
+                {
+                    currentHealth += 1;
+                    healthbar.Sethealth(currentHealth);
+                    yield return regenTick;
+                }
+                break;
+            case Diff.Norm:
+                yield return new WaitForSeconds(10);
+                while (currentHealth < MaxHealth)
+                {
+                    currentHealth += 1;
+                    healthbar.Sethealth(currentHealth);
+                    yield return regenTick;
+                }
+                break;
+            case Diff.Hard:
+                break;
+            default:
+                break;
         }
+        
         
     }
 
