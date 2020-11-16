@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -86,6 +87,18 @@ public class EnemyCombat : MonoBehaviour
     {
         //Debug.Log("Enemy died!");
         animator.SetBool("IsDead", true);
+        if (this.MaxHealth<=50)
+        {
+            Scorescript.ScoreValue += 1;
+        }
+        else if (this.MaxHealth<=100)
+        {
+            Scorescript.ScoreValue += 2;
+        }
+        else
+        {
+            Scorescript.ScoreValue += 3;
+        }
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
