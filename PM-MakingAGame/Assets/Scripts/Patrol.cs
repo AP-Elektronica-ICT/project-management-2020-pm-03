@@ -5,7 +5,6 @@ using UnityEngine.UIElements;
 
 public class Patrol : MonoBehaviour
 {
-    public Transform Target;
     public Rigidbody2D rb;
     public Transform EnemyGFX;
     public float DetectionRange;
@@ -15,6 +14,7 @@ public class Patrol : MonoBehaviour
     public float StartWaitTime;
     public Transform[] moveSpots;
     public int randomSpot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,7 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, Speed * Time.deltaTime);
+        // ga naar randomspot met AI
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position )< 0.02f)
         {
             if (waittime <= 0)
@@ -49,7 +50,7 @@ public class Patrol : MonoBehaviour
             }
 
         }
-        if (Vector2.Distance(Target.position, rb.position) <= DetectionRange)
+        if (Vector2.Distance(EnemyAI.target.position, rb.position) <= DetectionRange)
         {
             this.enabled = false;
             EnemyAI.enabled = true;
