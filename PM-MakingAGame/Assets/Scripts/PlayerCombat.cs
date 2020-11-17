@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class PlayerCombat : MonoBehaviour
 {
+
+    
     public Animator animator;
     
     public PlayerMovement movement;
@@ -28,13 +30,14 @@ public class PlayerCombat : MonoBehaviour
     private float nextAttackTime = 0f;
 
     public HealthBar healthbar;
-    
-    
+
+    private WaitForSeconds regenTick = new WaitForSeconds(0.2f);
+    private Coroutine regen;
 
     void Start()
     {
-        
-        
+        FindObjectOfType<AudioManager>().Play("HeroRun");
+
         SetDiff();
        
 
@@ -56,8 +59,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        
 
+        animator.SetTrigger("Attack");
+        FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
         foreach (var enemy in HitEnemies)
@@ -80,7 +85,13 @@ public class PlayerCombat : MonoBehaviour
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        FindObjectOfType<AudioManager>().Play("HeroHit");
         healthbar.Sethealth(currentHealth);
+        if (regen != null)
+        {
+            StopCoroutine(regen);
+        }
+        regen = StartCoroutine(HealthRegen());
         if (currentHealth <= 0)
         {
             Die();
@@ -91,7 +102,7 @@ public class PlayerCombat : MonoBehaviour
     {
         //Debug.Log("U died!");
         animator.SetBool("IsDead", true);
-
+        FindObjectOfType<AudioManager>().Play("HeroDeath");
         Invoke("StartDeathScreen", 1.5f);
 
         GetComponent<Collider2D>().enabled = false;
@@ -121,6 +132,7 @@ public class PlayerCombat : MonoBehaviour
             case Diff.Hard:
                 health = 100;
                 damage = 35;
+                
                 break;
             default:
                 break;
@@ -132,11 +144,43 @@ public class PlayerCombat : MonoBehaviour
 
 
     }
+    private IEnumerator HealthRegen()
+    {
+        switch (DifficultySetting.difficultyMode)
+        {
+            case Diff.Ez:
+                yield return new WaitForSeconds(2);
+                while (currentHealth < MaxHealth)
+                {
+                    currentHealth += 1;
+                    healthbar.Sethealth(currentHealth);
+                    yield return regenTick;
+                }
+                break;
+            case Diff.Norm:
+                yield return new WaitForSeconds(10);
+                while (currentHealth < MaxHealth)
+                {
+                    currentHealth += 1;
+                    healthbar.Sethealth(currentHealth);
+                    yield return regenTick;
+                }
+                break;
+            case Diff.Hard:
+                break;
+            default:
+                break;
+        }
+        
+        
+    }
+
+   
 
 
 
 
 
-    
+
 
 }
