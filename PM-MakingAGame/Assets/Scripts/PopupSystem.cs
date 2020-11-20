@@ -6,6 +6,7 @@ public class PopupSystem : MonoBehaviour
 {
     public GameObject dialogbox;
     public Text dialogtext;
+    [TextArea]
     public string dialog;
 
 
@@ -16,6 +17,7 @@ public class PopupSystem : MonoBehaviour
         {
             dialogbox.SetActive(true);
             dialogtext.text = dialog;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
