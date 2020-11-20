@@ -27,6 +27,8 @@ public class Patrol : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, Speed * Time.deltaTime);
         // ga naar randomspot met AI
+        //EnemyAI.target = moveSpots[randomSpot];
+
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position )< 0.02f)
         {
             if (waittime <= 0)
