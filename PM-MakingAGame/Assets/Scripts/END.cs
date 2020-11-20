@@ -13,7 +13,9 @@ public class END : MonoBehaviour
     
         void Awake()
         {
-            if(onTrigger == null)
+        
+
+        if (onTrigger == null)
             {
                 onTrigger = new UnityEvent();
             }
@@ -27,6 +29,7 @@ public class END : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        FindObjectOfType<AudioManager>().Stop("HeroRun");
     }
 
 
