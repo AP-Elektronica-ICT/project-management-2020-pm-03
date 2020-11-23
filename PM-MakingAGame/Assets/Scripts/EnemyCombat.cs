@@ -144,9 +144,13 @@ public class EnemyCombat : MonoBehaviour
         {
             Scorescript.ScoreValue += 2;
         }
-        else
+        else if(this.MaxHealth>100)
         {
             Scorescript.ScoreValue += 3;
+        }
+        else if(animator.name == "BossGFX")
+        {
+            Scorescript.ScoreValue += 50;
         }
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
