@@ -11,6 +11,8 @@ public class PlayerCombat : MonoBehaviour
 
     
     public Animator animator;
+
+    public GameObject Boss;
     
     public PlayerMovement movement;
 
@@ -67,11 +69,11 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (var enemy in HitEnemies)
         {
-            //Debug.Log("You hit " + enemy.name);
-            enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);
+                //Debug.Log("You hit " + enemy.name);
+                enemy.GetComponent<EnemyCombat>().TakeDamage(AttackDamage);            
         }
     }
-
+    
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null)

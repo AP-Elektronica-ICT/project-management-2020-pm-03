@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class EnemyCombat : MonoBehaviour
 
 {
+
+    SpriteRenderer sprite;
     Transform Player;
     Rigidbody2D rb;
     public Animator animator;
@@ -16,6 +18,7 @@ public class EnemyCombat : MonoBehaviour
 
     public float AttackRange = 1.5f;
     public int AttackDamage = 10;
+    private int enragedDamage;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
@@ -35,7 +38,10 @@ public class EnemyCombat : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         healthbar.SetMaxHealth(MaxHealth);
+        sprite = GetComponent<SpriteRenderer>();
+        enragedDamage = AttackDamage * 2;
         
+
     }
 
     void Update()
@@ -47,7 +53,13 @@ public class EnemyCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + AttackRate;
             }
-        }   
+        }
+        if (animator.name == "BossGFX" && this.currentHealth < (this.MaxHealth / 2))
+        {
+            movement.speed = 1000;
+            animator.SetBool("IsEnraged", true);
+            sprite.color = Color.red;
+        }
     }
 
     void Attack()
@@ -68,6 +80,10 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (var player in HitPlayer)
         {
+            if (animator.GetBool("IsEnraged") == true)
+            {
+                player.GetComponent<PlayerCombat>().TakeDamage(enragedDamage);
+            }
             //Debug.Log("U got hit ");
             player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
         }
