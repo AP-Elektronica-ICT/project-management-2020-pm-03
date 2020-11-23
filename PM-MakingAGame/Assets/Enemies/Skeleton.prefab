@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 8422296908115600498}
   - component: {fileID: 8422296908115600497}
   m_Layer: 0
-  m_Name: Enemy2
+  m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3475523c7768f5479073c503f4fe95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
   rb: {fileID: 8422296908115600499}
   EnemyGFX: {fileID: 8422296909514458276}
   DetectionRange: 8
@@ -453,7 +452,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SmallSkeleton
+  m_Text: Skeleton
 --- !u!1 &8422296908724875046
 GameObject:
   m_ObjectHideFlags: 0
