@@ -136,6 +136,7 @@ public class EnemyCombat : MonoBehaviour
 
         }
         animator.SetBool("IsDead", true);
+        sprite.color = Color.white;
         if (this.MaxHealth<=50)
         {
             Scorescript.ScoreValue += 1;
