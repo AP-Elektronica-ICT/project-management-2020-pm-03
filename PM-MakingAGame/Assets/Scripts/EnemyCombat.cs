@@ -19,6 +19,7 @@ public class EnemyCombat : MonoBehaviour
     public float AttackRange = 1.5f;
     public int AttackDamage = 10;
     private int enragedDamage;
+    bool enragedbool = false;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
@@ -57,7 +58,7 @@ public class EnemyCombat : MonoBehaviour
         if (animator.name == "BossGFX" && this.currentHealth < (this.MaxHealth / 2))
         {
             movement.speed = 1000;
-            animator.SetBool("IsEnraged", true);
+            enragedbool = true;
             sprite.color = Color.red;
         }
     }
@@ -80,7 +81,7 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (var player in HitPlayer)
         {
-            if (animator.GetBool("IsEnraged") == true)
+            if (enragedbool == true)
             {
                 player.GetComponent<PlayerCombat>().TakeDamage(enragedDamage);
             }
