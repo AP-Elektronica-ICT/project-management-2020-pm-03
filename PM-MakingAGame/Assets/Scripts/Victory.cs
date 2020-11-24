@@ -21,6 +21,7 @@ public class Victory : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("Level1");
+        Scorescript.ScoreValue = 0;
     }
 
     public void Quit()

@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class EnemyCombat : MonoBehaviour
 
 {
+
+    SpriteRenderer sprite;
     Transform Player;
     Rigidbody2D rb;
     public Animator animator;
@@ -16,6 +18,8 @@ public class EnemyCombat : MonoBehaviour
 
     public float AttackRange = 1.5f;
     public int AttackDamage = 10;
+    private int enragedDamage;
+    bool enragedbool = false;
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
@@ -35,7 +39,10 @@ public class EnemyCombat : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         healthbar.SetMaxHealth(MaxHealth);
+        sprite = GetComponent<SpriteRenderer>();
+        enragedDamage = AttackDamage * 2;
         
+
     }
 
     void Update()
@@ -47,7 +54,13 @@ public class EnemyCombat : MonoBehaviour
                 Attack();
                 nextAttackTime = Time.time + AttackRate;
             }
-        }   
+        }
+        if (animator.name == "BossGFX" && this.currentHealth < (this.MaxHealth / 2))
+        {
+            movement.speed = 1000;
+            enragedbool = true;
+            sprite.color = Color.red;
+        }
     }
 
     void Attack()
@@ -68,6 +81,10 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (var player in HitPlayer)
         {
+            if (enragedbool == true)
+            {
+                player.GetComponent<PlayerCombat>().TakeDamage(enragedDamage);
+            }
             //Debug.Log("U got hit ");
             player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
         }
@@ -120,6 +137,7 @@ public class EnemyCombat : MonoBehaviour
 
         }
         animator.SetBool("IsDead", true);
+        sprite.color = Color.white;
         if (this.MaxHealth<=50)
         {
             Scorescript.ScoreValue += 1;
@@ -128,9 +146,13 @@ public class EnemyCombat : MonoBehaviour
         {
             Scorescript.ScoreValue += 2;
         }
-        else
+        else if(this.MaxHealth>100)
         {
             Scorescript.ScoreValue += 3;
+        }
+        else if(animator.name == "BossGFX")
+        {
+            Scorescript.ScoreValue += 50;
         }
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
