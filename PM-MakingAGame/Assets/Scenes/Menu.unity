@@ -708,6 +708,7 @@ GameObject:
   - component: {fileID: 418824982}
   - component: {fileID: 418824983}
   - component: {fileID: 418824984}
+  - component: {fileID: 418824985}
   m_Layer: 5
   m_Name: OptionsMenu
   m_TagString: Untagged
@@ -739,7 +740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15.5, y: 40.2}
+  m_AnchoredPosition: {x: 15.5, y: 40.199997}
   m_SizeDelta: {x: -520.614, y: -177.1742}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418824983
@@ -766,6 +767,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25b9074875eda34eb71df64e100f08b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &418824985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418824981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b315d97db483c0448c23cb2c382de05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1540020701}
 --- !u!1 &488309053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,8 +1474,8 @@ Canvas:
   m_GameObject: {fileID: 741371613}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1467126655}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2752,7 +2766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -39}
+  m_AnchoredPosition: {x: 0, y: -39.000015}
   m_SizeDelta: {x: -327.4417, y: -313.2736}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768523347
