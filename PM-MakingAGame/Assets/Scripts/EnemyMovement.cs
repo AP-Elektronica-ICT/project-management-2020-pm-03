@@ -21,12 +21,15 @@ public class EnemyMovement : MonoBehaviour
 
     private Path path;
     private int currentWaypoint = 0;
-    private Seeker seeker;
+    public Seeker seeker;
+    public Seeker seekerForHome;
 
     // Patrol
     public float GuardingSpeed;
     public float DetectionRange;
-    public Transform[] MoveSpots;
+    public Vector2[] MoveSpots;
+
+    private Vector2 home;
     private float startWaitTime = 0;
     private float waittime;
     private int randomSpot;
@@ -34,15 +37,16 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         // Search for components needed for EnemyAI
-        seeker = GetComponent<Seeker>();
         Rb = GetComponent<Rigidbody2D>();
 
         // Seach for components needed for Patrol
         randomSpot = Random.Range(0, MoveSpots.Length);
         Animator.SetFloat("Horizontal", 1);
+        home = MoveSpots[0];
 
         // Start repeating the updatefunction for active pathfinding
         InvokeRepeating("UpdatePath", 0f, 0.5f);
+        InvokeRepeating("UpdatePathForHome", 0f, 0.5f);
     }
 
     // Pathfinding
@@ -51,6 +55,13 @@ public class EnemyMovement : MonoBehaviour
         if (seeker.IsDone())
             seeker.StartPath(Rb.position, Target.position, OnPathComplete);
     }
+
+    private void UpdatePathForHome()
+    {
+        if (seekerForHome.IsDone())
+            seekerForHome.StartPath(Rb.position, home, OnPathComplete);
+    }
+
 
     private void OnPathComplete(Path p)
     {
@@ -64,6 +75,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        Debug.Log($"Target: {Target.position} Home: {home}");
         Check();
 
         if (Engaging)
@@ -118,11 +130,11 @@ public class EnemyMovement : MonoBehaviour
 
         if (Vector2.Distance(Target.position, Rb.position) >= DetectionRange)
         {
-            if (Rb.position.x >= MoveSpots[randomSpot].position.x)
+            if (Rb.position.x >= MoveSpots[randomSpot].x)
             {
                 Animator.SetFloat("Horizontal", -1);
             }
-            else if (Rb.position.x <= MoveSpots[randomSpot].position.x)
+            else if (Rb.position.x <= MoveSpots[randomSpot].y)
             {
                 Animator.SetFloat("Horizontal", 1);
             }
@@ -134,9 +146,10 @@ public class EnemyMovement : MonoBehaviour
 
     private void Patrol()
     {
-        transform.position = Vector2.MoveTowards(transform.position, MoveSpots[randomSpot].position, GuardingSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, MoveSpots[randomSpot], GuardingSpeed * Time.deltaTime);
+
         // ga naar randomspot met AI
-        if (Vector2.Distance(transform.position, MoveSpots[randomSpot].position) < 0.02f)
+        if (Vector2.Distance(transform.position, MoveSpots[randomSpot]) < 0.02f)
         {
             if (waittime <= 0)
             {
