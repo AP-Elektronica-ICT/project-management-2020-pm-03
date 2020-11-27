@@ -30,6 +30,8 @@ public class END : MonoBehaviour
             Destroy(gameObject);
         }
         FindObjectOfType<AudioManager>().Stop("HeroRun");
+        FindObjectOfType<AudioManager>().Stop("level1");
+        FindObjectOfType<AudioManager>().Play("victory");
     }
 
 

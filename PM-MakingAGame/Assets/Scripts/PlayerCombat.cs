@@ -38,6 +38,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("level1");
         FindObjectOfType<AudioManager>().Play("HeroRun");
 
         SetDiff();
