@@ -53,8 +53,8 @@ MonoBehaviour:
     playonawake: 0
     source: {fileID: 0}
   - Name: MainMenu
-    clip: {fileID: 8300000, guid: 20a74169fd5309f4a8cd7f2c6e3576ca, type: 3}
-    volume: 0.994
+    clip: {fileID: 8300000, guid: bc5e1325b6e9dce4e89530a2eac49596, type: 3}
+    volume: 0.216
     pitch: 0.98
     loop: 1
     mute: 0
@@ -129,6 +129,22 @@ MonoBehaviour:
     volume: 0.524
     pitch: 0.93
     loop: 0
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: level1
+    clip: {fileID: 8300000, guid: b0d790b607e40f241a0796e0d2170f8a, type: 3}
+    volume: 0.128
+    pitch: 0.93
+    loop: 1
+    mute: 0
+    playonawake: 0
+    source: {fileID: 0}
+  - Name: victory
+    clip: {fileID: 8300000, guid: fa20aca75cabc064782261569dcc2c1e, type: 3}
+    volume: 0.43
+    pitch: 1.19
+    loop: 1
     mute: 0
     playonawake: 0
     source: {fileID: 0}

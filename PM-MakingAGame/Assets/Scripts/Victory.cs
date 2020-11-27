@@ -9,6 +9,7 @@ public class Victory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("victory");
 
     }
 
@@ -21,6 +22,8 @@ public class Victory : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("Level1");
+        FindObjectOfType<AudioManager>().Play("level1");
+        FindObjectOfType<AudioManager>().Stop("victory");
         Scorescript.ScoreValue = 0;
     }
 
@@ -31,6 +34,8 @@ public class Victory : MonoBehaviour
 
     public void Menu()
     {
+        FindObjectOfType<AudioManager>().Play("MainMenu");
+        FindObjectOfType<AudioManager>().Stop("victory");
         SceneManager.LoadScene("Menu");
     }
 }

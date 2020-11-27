@@ -16,6 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
         FindObjectOfType<AudioManager>().Stop("MainMenu");
+        FindObjectOfType<AudioManager>().Play("level1");
         Scorescript.ScoreValue = 0;
 
 
