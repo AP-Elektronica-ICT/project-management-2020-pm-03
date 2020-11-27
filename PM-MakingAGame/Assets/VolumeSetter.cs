@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class VolumeSetter : MonoBehaviour
 {
-    public static float Volume;
+    public static float Volume = 0.5f;
     public Slider slider;
 
     
