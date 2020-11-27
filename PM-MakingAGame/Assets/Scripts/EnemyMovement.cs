@@ -12,7 +12,6 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D Rb;
     private bool Patrolling = true;
     private bool Engaging = false;
-
     // EnemyAI
     public Transform Target;
     public float EngagingSpeed = 200f;
@@ -28,7 +27,6 @@ public class EnemyMovement : MonoBehaviour
     public float GuardingSpeed;
     public float DetectionRange;
     public Transform[] MoveSpots;
-
     private float startWaitTime = 0;
     private float waittime;
     private int randomSpot;
