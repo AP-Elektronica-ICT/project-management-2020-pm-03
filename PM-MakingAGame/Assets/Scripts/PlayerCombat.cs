@@ -47,9 +47,6 @@ public class PlayerCombat : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("HeroRun");
 
         SetDiff();
-       
-
-       
     }
 
     // Update is called once per frame
@@ -65,6 +62,7 @@ public class PlayerCombat : MonoBehaviour
         }
         if (Time.time >= nextBlockTime)
         {
+            Blockbool = false;
             if (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.LeftShift))
             {
                 Block();
@@ -80,8 +78,6 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
-        
-
         animator.SetTrigger("Attack");
         FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
@@ -157,18 +153,18 @@ public class PlayerCombat : MonoBehaviour
             case Diff.Hard:
                 health = 100;
                 damage = 35;
-                
                 break;
+
             default:
                 break;
         }
+
         MaxHealth = health;
         currentHealth = MaxHealth;
         healthbar.SetMaxHealth(MaxHealth);
         AttackDamage = damage;
-
-
     }
+
     private IEnumerator HealthRegen()
     {
         switch (DifficultySetting.difficultyMode)
@@ -182,6 +178,7 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Norm:
                 yield return new WaitForSeconds(10);
                 while (currentHealth < MaxHealth)
@@ -191,8 +188,10 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Hard:
                 break;
+
             default:
                 break;
         }
