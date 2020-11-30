@@ -31,6 +31,11 @@ public class PlayerCombat : MonoBehaviour
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
 
+    private float nextBlockTime = 0f;
+    public float BlockRate = 2f;
+    private bool Blockbool = false;
+
+
     public HealthBar healthbar;
 
     private WaitForSeconds regenTick = new WaitForSeconds(0.2f);
@@ -42,9 +47,6 @@ public class PlayerCombat : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("HeroRun");
 
         SetDiff();
-       
-
-       
     }
 
     // Update is called once per frame
@@ -58,12 +60,24 @@ public class PlayerCombat : MonoBehaviour
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
         }
+        if (Time.time >= nextBlockTime)
+        {
+            Blockbool = false;
+            if (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                Block();
+                nextBlockTime = Time.time + 1f / BlockRate;
+            }
+        }
+    }
+    void Block()
+    {
+        animator.SetTrigger("Block");
+        Blockbool = true;
     }
 
     void Attack()
     {
-        
-
         animator.SetTrigger("Attack");
         FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
@@ -86,10 +100,14 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        animator.SetTrigger("Hurt");
-        FindObjectOfType<AudioManager>().Play("HeroHit");
-        healthbar.Sethealth(currentHealth);
+        if (Blockbool == false)
+        {
+            currentHealth -= damage;
+            animator.SetTrigger("Hurt");
+            FindObjectOfType<AudioManager>().Play("HeroHit");
+            healthbar.Sethealth(currentHealth);
+        }
+        
         if (regen != null)
         {
             StopCoroutine(regen);
@@ -135,18 +153,18 @@ public class PlayerCombat : MonoBehaviour
             case Diff.Hard:
                 health = 100;
                 damage = 35;
-                
                 break;
+
             default:
                 break;
         }
+
         MaxHealth = health;
         currentHealth = MaxHealth;
         healthbar.SetMaxHealth(MaxHealth);
         AttackDamage = damage;
-
-
     }
+
     private IEnumerator HealthRegen()
     {
         switch (DifficultySetting.difficultyMode)
@@ -160,6 +178,7 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Norm:
                 yield return new WaitForSeconds(10);
                 while (currentHealth < MaxHealth)
@@ -169,8 +188,10 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Hard:
                 break;
+
             default:
                 break;
         }
