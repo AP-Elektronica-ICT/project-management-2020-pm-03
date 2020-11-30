@@ -30,6 +30,7 @@ public class PlayerCombat : MonoBehaviour
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
+    private bool Attackbool = false;
 
     private float nextBlockTime = 0f;
     public float BlockRate = 2f;
@@ -54,7 +55,8 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time>=nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            Attackbool = false;
+            if (Input.GetKeyDown(KeyCode.Space) && Blockbool == false)
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
@@ -63,7 +65,7 @@ public class PlayerCombat : MonoBehaviour
         if (Time.time >= nextBlockTime)
         {
             Blockbool = false;
-            if (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.LeftShift))
+            if ((Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.LeftShift)) && Attackbool == false)
             {
                 Block();
                 nextBlockTime = Time.time + 1f / BlockRate;
@@ -79,6 +81,7 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         animator.SetTrigger("Attack");
+        Attackbool = true;
         FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
