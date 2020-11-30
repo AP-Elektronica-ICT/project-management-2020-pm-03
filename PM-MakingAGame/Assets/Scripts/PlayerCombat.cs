@@ -144,11 +144,11 @@ public class PlayerCombat : MonoBehaviour
         {
             case Diff.Ez:
                 health = 200;
-                damage = 65;
+                damage = 50;
                 break;
             case Diff.Norm:
                 health = 150;
-                damage = 50;
+                damage = 40;
                 break;
             case Diff.Hard:
                 health = 100;
@@ -170,7 +170,7 @@ public class PlayerCombat : MonoBehaviour
         switch (DifficultySetting.difficultyMode)
         {
             case Diff.Ez:
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(5);
                 while (currentHealth < MaxHealth)
                 {
                     currentHealth += 1;
