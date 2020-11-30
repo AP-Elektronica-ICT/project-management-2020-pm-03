@@ -138,22 +138,25 @@ public class EnemyCombat : MonoBehaviour
         }
         animator.SetBool("IsDead", true);
         sprite.color = Color.white;
-        if (this.MaxHealth<=50)
+        if (this.MaxHealth <= 50)
         {
             Scorescript.ScoreValue += 1;
         }
-        else if (this.MaxHealth<=100)
+        else if (this.MaxHealth <= 100)
         {
             Scorescript.ScoreValue += 2;
         }
-        else if(this.MaxHealth>100)
-        {
-            Scorescript.ScoreValue += 3;
-        }
-        else if(animator.name == "BossGFX")
+        else if (animator.name == "BossGFX")
         {
             Scorescript.ScoreValue += 50;
         }
+        else
+        {
+            Scorescript.ScoreValue += 3;
+        }
+
+        
+        
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
