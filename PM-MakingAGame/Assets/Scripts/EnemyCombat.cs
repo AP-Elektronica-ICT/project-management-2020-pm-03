@@ -18,7 +18,7 @@ public class EnemyCombat : MonoBehaviour
 
     public float AttackRange = 1.5f;
     public int AttackDamage = 10;
-    private int enragedDamage;
+    private float enragedDamage;
     bool enragedbool = false;
 
     public float AttackRate = 2f;
@@ -40,7 +40,7 @@ public class EnemyCombat : MonoBehaviour
         rb = animator.GetComponent<Rigidbody2D>();
         healthbar.SetMaxHealth(MaxHealth);
         sprite = GetComponent<SpriteRenderer>();
-        enragedDamage = AttackDamage * 2;
+        enragedDamage = AttackDamage * 1.5f;
         
 
     }
@@ -83,7 +83,7 @@ public class EnemyCombat : MonoBehaviour
         {
             if (enragedbool == true)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(enragedDamage);
+                player.GetComponent<PlayerCombat>().TakeDamage((int)enragedDamage);
             }
             //Debug.Log("U got hit ");
             player.GetComponent<PlayerCombat>().TakeDamage(AttackDamage);
@@ -138,22 +138,25 @@ public class EnemyCombat : MonoBehaviour
         }
         animator.SetBool("IsDead", true);
         sprite.color = Color.white;
-        if (this.MaxHealth<=50)
+        if (this.MaxHealth <= 50)
         {
             Scorescript.ScoreValue += 1;
         }
-        else if (this.MaxHealth<=100)
+        else if (this.MaxHealth <= 100)
         {
             Scorescript.ScoreValue += 2;
         }
-        else if(this.MaxHealth>100)
-        {
-            Scorescript.ScoreValue += 3;
-        }
-        else if(animator.name == "BossGFX")
+        else if (animator.name == "BossGFX")
         {
             Scorescript.ScoreValue += 50;
         }
+        else
+        {
+            Scorescript.ScoreValue += 3;
+        }
+
+        
+        
         this.healthbar.Death();
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
