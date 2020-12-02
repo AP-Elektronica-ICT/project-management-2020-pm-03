@@ -90,7 +90,7 @@ public class EnemyAI : MonoBehaviour
             //enemyGFX.localScale = new Vector3(1f, 1f, 1f);
             attackPoint.localPosition = new Vector3(-1, 0);
         }
-        if (Vector2.Distance(target.position, rb.position) >= Patrol.DetectionRange)
+        if (Vector2.Distance(target.position, rb.position) >= Patrol.DetectionRange || Vector2.Distance(target.position, rb.position) >= Vector2.Distance(rb.position, Patrol.moveSpots[Patrol.randomSpot].position))
         {
             if (rb.position.x >= Patrol.moveSpots[Patrol.randomSpot].position.x)
             {

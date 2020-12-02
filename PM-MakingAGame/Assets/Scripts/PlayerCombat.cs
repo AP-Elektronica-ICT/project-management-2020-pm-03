@@ -30,6 +30,12 @@ public class PlayerCombat : MonoBehaviour
 
     public float AttackRate = 2f;
     private float nextAttackTime = 0f;
+    private bool Attackbool = false;
+
+    private float nextBlockTime = 0f;
+    public float BlockRate = 2f;
+    private bool Blockbool = false;
+
 
     public HealthBar healthbar;
 
@@ -38,12 +44,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("level1");
         FindObjectOfType<AudioManager>().Play("HeroRun");
 
         SetDiff();
-       
-
-       
     }
 
     // Update is called once per frame
@@ -51,19 +55,33 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time>=nextAttackTime)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            Attackbool = false;
+            if (Input.GetKeyDown(KeyCode.Space) && Blockbool == false)
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / AttackRate;
             }
         }
+        if (Time.time >= nextBlockTime)
+        {
+            Blockbool = false;
+            if ((Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.LeftShift)) && Attackbool == false)
+            {
+                Block();
+                nextBlockTime = Time.time + 1f / BlockRate;
+            }
+        }
+    }
+    void Block()
+    {
+        animator.SetTrigger("Block");
+        Blockbool = true;
     }
 
     void Attack()
     {
-        
-
         animator.SetTrigger("Attack");
+        Attackbool = true;
         FindObjectOfType<AudioManager>().Play("HeroAttack");
         Collider2D[] HitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, AttackRange, EnemyLayers);
 
@@ -85,10 +103,14 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        animator.SetTrigger("Hurt");
-        FindObjectOfType<AudioManager>().Play("HeroHit");
-        healthbar.Sethealth(currentHealth);
+        if (Blockbool == false)
+        {
+            currentHealth -= damage;
+            animator.SetTrigger("Hurt");
+            FindObjectOfType<AudioManager>().Play("HeroHit");
+            healthbar.Sethealth(currentHealth);
+        }
+        
         if (regen != null)
         {
             StopCoroutine(regen);
@@ -125,33 +147,33 @@ public class PlayerCombat : MonoBehaviour
         {
             case Diff.Ez:
                 health = 200;
-                damage = 65;
+                damage = 50;
                 break;
             case Diff.Norm:
                 health = 150;
-                damage = 50;
+                damage = 40;
                 break;
             case Diff.Hard:
                 health = 100;
                 damage = 35;
-                
                 break;
+
             default:
                 break;
         }
+
         MaxHealth = health;
         currentHealth = MaxHealth;
         healthbar.SetMaxHealth(MaxHealth);
         AttackDamage = damage;
-
-
     }
+
     private IEnumerator HealthRegen()
     {
         switch (DifficultySetting.difficultyMode)
         {
             case Diff.Ez:
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(5);
                 while (currentHealth < MaxHealth)
                 {
                     currentHealth += 1;
@@ -159,6 +181,7 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Norm:
                 yield return new WaitForSeconds(10);
                 while (currentHealth < MaxHealth)
@@ -168,8 +191,10 @@ public class PlayerCombat : MonoBehaviour
                     yield return regenTick;
                 }
                 break;
+
             case Diff.Hard:
                 break;
+
             default:
                 break;
         }

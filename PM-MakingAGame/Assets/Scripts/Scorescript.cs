@@ -16,6 +16,22 @@ public class Scorescript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = "Score: " + ScoreValue; 
+        switch (DifficultySetting.difficultyMode)
+        {
+            case Diff.Ez:
+                score.text = "Score: " + ScoreValue;
+                break;
+            case Diff.Norm:
+                score.text = "Score: " + ScoreValue*2;
+                break;
+            case Diff.Hard:
+                score.text = "Score: " + ScoreValue*3;
+                break;
+
+            default:
+                break;
+        }
+        
     }
+    
 }
